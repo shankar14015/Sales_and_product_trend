@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% block title %}Manage Products - Sales{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1>Manage Products</h1>
+    <p>Add, edit or remove products. {% if request.args.getlist('category_ids') or request.args.getlist('product_ids') %}Filtered by selection.{% endif %}</p>
+</div>
+<div class="manage-card">
+    <h3>Add Product</h3>
+    <form id="addProductForm" class="form-inline">
+        <input type="text" id="productName" placeholder="Product name" required>
+        <select id="productCategory" required>
+            <option value="">-- Category --</option>
+            {% for c in categories %}
+            <option value="{{ c.doc_id }}">{{ c.name }}</option>
+            {% endfor %}
+        </select>
+        <input type="number" id="productPrice" placeholder="Price" min="0" step="0.01" required>
+        <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+</div>
+<div class="manage-card">
+    <h3>Products</h3>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="productsTable">
+            {% for p in products %}
+            <tr data-id="{{ p.doc_id }}">
+                <td>{{ p.doc_id }}</td>
+                <td class="prod-name">{{ p.name }}</td>
+                <td class="prod-cat">{{ p.category_name }}</td>
+                <td class="prod-price">₹{{ "%.2f"|format(p.price or 0) }}</td>
+                <td>
+                    <button class="btn btn-sm btn-edit" data-id="{{ p.doc_id }}">Edit</button>
+                    <button class="btn btn-sm btn-danger" data-id="{{ p.doc_id }}">Delete</button>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<div id="toast" class="toast"></div>
+{% endblock %}
+{% block scripts %}
+<script>
+const categories = {{ categories | tojson }};
+const products = {{ products | tojson }};
+const addForm = document.getElementById('addProductForm');
+const tbody = document.getElementById('productsTable');
+
+addForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const name = document.getElementById('productName').value.trim();
+    const categoryId = parseInt(document.getElementById('productCategory').value);
+    const price = parseFloat(document.getElementById('productPrice').value);
+    if (!name || !categoryId || isNaN(price)) return;
+    try {
+        const res = await fetch('/api/products', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name, category_id: categoryId, price })
+        });
+        const data = await res.json();
+        if (data.success) {
+            const catName = categories.find(c => (c.doc_id || c.id) === categoryId)?.name || '-';
+            const tr = document.createElement('tr');
+            tr.dataset.id = data.id;
+            tr.innerHTML = `<td>${data.id}</td><td class="prod-name">${name}</td><td class="prod-cat">${catName}</td><td class="prod-price">₹${price.toFixed(2)}</td><td>
+                <button class="btn btn-sm btn-edit" data-id="${data.id}">Edit</button>
+                <button class="btn btn-sm btn-danger" data-id="${data.id}">Delete</button>
+            </td>`;
+            tbody.appendChild(tr);
+            addForm.reset();
+            showToast('Product added!');
+        }
+    } catch (err) { showToast('Error: ' + err.message); }
+});
+
+tbody.addEventListener('click', async function(e) {
+    const id = parseInt(e.target.dataset.id);
+    if (!id) return;
+    if (e.target.classList.contains('btn-edit')) {
+        const row = e.target.closest('tr');
+        const prod = products.find(p => (p.doc_id || p.id) === id);
+        const newName = prompt('Product name:', row.querySelector('.prod-name').textContent);
+        const newPrice = prompt('Price:', row.querySelector('.prod-price').textContent.replace('₹',''));
+        if (newName && newPrice) {
+            const res = await fetch('/api/products/' + id, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: newName, price: parseFloat(newPrice) })
+            });
+            if (res.ok) {
+                row.querySelector('.prod-name').textContent = newName;
+                row.querySelector('.prod-price').textContent = '₹' + parseFloat(newPrice).toFixed(2);
+                showToast('Updated!');
+            }
+        }
+    } else if (e.target.classList.contains('btn-danger')) {
+        if (!confirm('Delete this product?')) return;
+        const res = await fetch('/api/products/' + id, { method: 'DELETE' });
+        if (res.ok) { e.target.closest('tr').remove(); showToast('Deleted!'); }
+    }
+});
+
+function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2000);
+}
+</script>
+{% endblock %}

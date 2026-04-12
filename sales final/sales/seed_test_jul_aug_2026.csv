@@ -1,0 +1,46 @@
+Date,Product,Category,Quantity,Unit Price,Gross Amount,Payment Mode
+01-07-2026,Sugar 1kg,Grocery,11,56,616,UPI
+01-07-2026,Detergent 1kg,Household,7,188,1316,Cash
+02-07-2026,Eggs Pack,Dairy,9,96,864,Card
+03-07-2026,Milk 1L,Dairy,18,68,1224,UPI
+03-07-2026,Bread,Bakery,16,46,736,UPI
+04-07-2026,Apples 1kg,Fruits,11,155,1705,Cash
+05-07-2026,Bananas,Fruits,22,64,1408,Cash
+06-07-2026,Rice 5kg,Grocery,4,365,1460,Card
+07-07-2026,Cooking Oil 1L,Grocery,8,178,1424,Cash
+08-07-2026,Tea Powder,Grocery,11,120,1320,Cash
+09-07-2026,Soap Bar,Household,26,34,884,UPI
+10-07-2026,Shampoo 180ml,Household,9,135,1215,Card
+11-07-2026,Tomatoes 1kg,Vegetables,18,56,1008,Cash
+12-07-2026,Onions 1kg,Vegetables,17,50,850,Cash
+13-07-2026,Curd 500g,Dairy,13,66,858,UPI
+14-07-2026,Butter 200g,Dairy,9,126,1134,Card
+16-07-2026,Chicken 1kg,Meat,8,290,2320,Cash
+18-07-2026,Pasta 500g,Grocery,15,86,1290,UPI
+20-07-2026,Toothpaste,Household,15,78,1170,Card
+22-07-2026,Oranges 1kg,Fruits,13,140,1820,Cash
+25-07-2026,Ice Cream,Dairy,11,112,1232,Card
+27-07-2026,Paneer 200g,Dairy,10,104,1040,UPI
+31-07-2026,Chips,Snacks,24,28,672,Cash
+01-08-2026,Sugar 1kg,Grocery,12,58,696,UPI
+02-08-2026,Detergent 1kg,Household,8,190,1520,Cash
+03-08-2026,Milk 1L,Dairy,19,70,1330,UPI
+04-08-2026,Bread,Bakery,17,48,816,UPI
+05-08-2026,Apples 1kg,Fruits,12,158,1896,Cash
+06-08-2026,Bananas,Fruits,24,66,1584,Cash
+07-08-2026,Rice 5kg,Grocery,4,370,1480,Card
+08-08-2026,Cooking Oil 1L,Grocery,9,180,1620,Cash
+09-08-2026,Tea Powder,Grocery,12,122,1464,Cash
+10-08-2026,Soap Bar,Household,28,34,952,UPI
+11-08-2026,Shampoo 180ml,Household,10,138,1380,Card
+12-08-2026,Tomatoes 1kg,Vegetables,20,58,1160,Cash
+13-08-2026,Onions 1kg,Vegetables,18,52,936,Cash
+14-08-2026,Curd 500g,Dairy,14,68,952,UPI
+15-08-2026,Butter 200g,Dairy,10,130,1300,Card
+17-08-2026,Chicken 1kg,Meat,9,295,2655,Cash
+19-08-2026,Pasta 500g,Grocery,16,88,1408,UPI
+21-08-2026,Toothpaste,Household,16,80,1280,Card
+23-08-2026,Oranges 1kg,Fruits,14,142,1988,Cash
+26-08-2026,Ice Cream,Dairy,12,115,1380,Card
+28-08-2026,Paneer 200g,Dairy,11,106,1166,UPI
+30-08-2026,Chips,Snacks,26,28,728,Cash

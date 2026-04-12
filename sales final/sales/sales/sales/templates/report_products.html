@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Product Reports - Sales{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1>Product Sales Reports</h1>
+    <p>{% if request.args.getlist('category_ids') or request.args.getlist('product_ids') %}Filtered by selection.{% endif %}</p>
+    <a href="{{ url_for('reports_page') }}" class="btn btn-secondary">← Back to Reports</a>
+</div>
+<div class="manage-card">
+    <h3>Products by Gross</h3>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity Sold</th>
+                <th>Total Gross</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for p in products %}
+            <tr>
+                <td>{{ p.name }}</td>
+                <td>{{ "%.0f"|format(p.quantity) }}</td>
+                <td>₹{{ "%.2f"|format(p.amount) }}</td>
+            </tr>
+            {% endfor %}
+            {% if not products %}
+            <tr><td colspan="3">No product sales data</td></tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

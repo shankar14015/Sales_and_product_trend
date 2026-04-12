@@ -1,0 +1,242 @@
+{% extends "base.html" %}
+{% block title %}AI Sales Prediction - Sales{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1>AI Sales Prediction</h1>
+    <p>Predict <strong>next 6 months Gross</strong> from your data (CSV 2 months or DB/Excel last 6 months)</p>
+    <a href="{{ url_for('reports_page') }}" class="btn btn-secondary">← Back to Reports</a>
+</div>
+
+<div class="upload-excel-card">
+    <h3>📁 Upload CSV or Excel to Predict Next 6 Months</h3>
+    <p><strong>CSV</strong>: Use columns <strong>Date</strong>, <strong>Product</strong>, <strong>Category</strong>, <strong>Quantity</strong>, <strong>Unit Price</strong>, <strong>Gross Amount</strong>, <strong>Payment Mode</strong>. Your 2 months of data will be used to predict the next 6 months Gross.</p>
+    <p><strong>Excel (.xlsx)</strong>: Use the same columns as CSV (<strong>Date</strong>, <strong>Product</strong>, <strong>Category</strong>, <strong>Quantity</strong>, <strong>Unit Price</strong>, <strong>Gross Amount</strong>, <strong>Payment Mode</strong>).</p>
+    <form method="post" action="{{ url_for('report_ai_prediction') }}" enctype="multipart/form-data" class="upload-excel-form">
+        <input type="file" name="upload_file" accept=".csv,.xlsx" required class="upload-input">
+        <button type="submit" class="btn-upload-excel" id="uploadPredictBtn">Upload & Predict Next 6 Months Gross</button>
+    </form>
+    {% if from_upload %}
+    <p class="upload-source-msg">✓ Showing prediction from your uploaded file. (source: {{ prediction_source|default('local') }})</p>
+    {% endif %}
+</div>
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for category, message in messages %}
+            <div class="flash flash-{{ category }}">{{ message }}</div>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+
+<div class="stats-row prediction-summary-cards">
+    <div class="stat-card stat-card-gross">
+        <div class="stat-label">Next 30 Days Predicted Gross</div>
+        <div class="stat-value">₹{{ "{:,.2f}".format(total_30_days_gross|default(0)) }}</div>
+        <div class="stat-meta">30 days</div>
+    </div>
+    <div class="stat-card stat-card-gross">
+        <div class="stat-label">Next 6 Months Predicted Gross</div>
+        <div class="stat-value">₹{{ "{:,.2f}".format(total_6_months_gross|default(0)) }}</div>
+        <div class="stat-meta">6 months</div>
+    </div>
+    <div class="stat-card stat-card-count">
+        <div class="stat-label">Daily Predictions</div>
+        <div class="stat-value">{{ daily|length }}</div>
+        <div class="stat-meta">days</div>
+    </div>
+    <div class="stat-card stat-card-count">
+        <div class="stat-label">Monthly Predictions</div>
+        <div class="stat-value">{{ monthly|length }}</div>
+        <div class="stat-meta">months</div>
+    </div>
+</div>
+
+<div class="charts-row">
+    <div class="chart-card">
+        <h3>Next 30 Days Predicted Gross</h3>
+        <canvas id="dailyChart" height="250"></canvas>
+    </div>
+    <div class="chart-card">
+        <h3>Next 6 Months Predicted Gross</h3>
+        <canvas id="monthlyChart" height="250"></canvas>
+    </div>
+</div>
+<div class="manage-card">
+    <h3>Daily Predictions (Next 30 Days)</h3>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Predicted Gross</th>
+                <th>Predicted Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for d in daily %}
+            <tr>
+                <td>{{ d.date }}</td>
+                <td>₹{{ "%.2f"|format(d.predicted_amount) }}</td>
+                <td>{{ "%.1f"|format(d.predicted_quantity) }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<div class="manage-card">
+    <h3>Monthly Predictions (Next 6 Months)</h3>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Predicted Gross</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for m in monthly %}
+            <tr>
+                <td>{{ m.label }}</td>
+                <td>₹{{ "%.2f"|format(m.predicted_amount) }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% if daily_by_product or monthly_by_product %}
+<div class="page-header" style="margin-top: 2rem;">
+    <h2>Predictions by Product</h2>
+</div>
+<div class="manage-card">
+    <h3>Next 30 Days Predicted Gross by Product</h3>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Total Predicted Gross (30 Days)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for p in daily_by_product %}
+            <tr>
+                <td>{{ p.product_name }}</td>
+                <td>₹{{ "%.2f"|format(p.total_30) }}</td>
+            </tr>
+            {% endfor %}
+            {% if not daily_by_product %}
+            <tr><td colspan="2">No product breakdown (upload CSV with Product column for per-product prediction).</td></tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+<div class="manage-card">
+    <h3>Next 6 Months Predicted Gross by Product</h3>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                {% for m in monthly %}
+                <th>{{ m.label }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for p in monthly_by_product %}
+            <tr>
+                <td>{{ p.product_name }}</td>
+                {% for m in p.monthly %}
+                <td>₹{{ "%.2f"|format(m.predicted_amount) }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+            {% if not monthly_by_product %}
+            <tr><td colspan="7">No product breakdown available.</td></tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+{% endif %}
+{% endblock %}
+{% block scripts %}
+<script>
+(function() {
+    const form = document.querySelector('.upload-excel-form');
+    const btn = document.getElementById('uploadPredictBtn');
+    if (form && btn) {
+        form.addEventListener('submit', async function(e) {
+            // Make upload visible under Fetch/XHR in DevTools and show loading state.
+            e.preventDefault();
+            const fd = new FormData(form);
+            btn.disabled = true;
+            const oldText = btn.textContent;
+            btn.textContent = 'Uploading...';
+            try {
+                const res = await fetch(form.action, { method: 'POST', body: fd });
+                if (res.redirected) {
+                    window.location.href = res.url;
+                    return;
+                }
+                // If server didn't redirect, fall back to normal navigation.
+                window.location.href = form.action;
+            } catch (err) {
+                alert('Upload failed: ' + (err && err.message ? err.message : String(err)));
+            } finally {
+                btn.disabled = false;
+                btn.textContent = oldText;
+            }
+        });
+    }
+
+    const daily = {{ daily | tojson | default('[]') }};
+    const monthly = {{ monthly | tojson | default('[]') }};
+    const dailyArr = Array.isArray(daily) ? daily : [];
+    const monthlyArr = Array.isArray(monthly) ? monthly : [];
+
+    function drawCharts() {
+        var dailyEl = document.getElementById('dailyChart');
+        var monthlyEl = document.getElementById('monthlyChart');
+        if (!dailyEl || !monthlyEl) return;
+        if (typeof Chart === 'undefined') {
+            setTimeout(drawCharts, 100);
+            return;
+        }
+        try {
+            new Chart(dailyEl, {
+                type: 'bar',
+                data: {
+                    labels: dailyArr.map(function(d) { return d.date || ''; }),
+                    datasets: [{
+                        label: 'Predicted Gross (₹)',
+                        data: dailyArr.map(function(d) { return d.predicted_amount != null ? d.predicted_amount : 0; }),
+                        backgroundColor: 'rgba(168, 85, 247, 0.6)',
+                        borderColor: 'rgba(168, 85, 247, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: { responsive: true, scales: { y: { beginAtZero: true } } }
+            });
+            new Chart(monthlyEl, {
+                type: 'bar',
+                data: {
+                    labels: monthlyArr.map(function(m) { return m.label || ''; }),
+                    datasets: [{
+                        label: 'Predicted Gross (₹)',
+                        data: monthlyArr.map(function(m) { return m.predicted_amount != null ? m.predicted_amount : 0; }),
+                        backgroundColor: 'rgba(236, 72, 153, 0.6)',
+                        borderColor: 'rgba(236, 72, 153, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: { responsive: true, scales: { y: { beginAtZero: true } } }
+            });
+        } catch (e) {
+            console.error('Chart error:', e);
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', drawCharts);
+    } else {
+        drawCharts();
+    }
+})();
+</script>
+{% endblock %}

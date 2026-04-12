@@ -1,0 +1,42 @@
+Date,Product,Category,Quantity,Unit Price,Gross Amount,Payment Mode
+01-01-2026,Sugar 1kg,Grocery,8,48,384,Card
+01-01-2026,Detergent 1kg,Household,6,170,1020,Cash
+01-01-2026,Eggs Pack,Dairy,6,85,510,Card
+02-01-2026,Milk 1L,Dairy,10,58,580,UPI
+02-01-2026,Bread,Bakery,7,35,245,UPI
+03-01-2026,Apples 1kg,Fruits,5,130,650,Cash
+03-01-2026,Bananas,Fruits,12,60,720,Cash
+04-01-2026,Rice 5kg,Grocery,2,320,640,Card
+04-01-2026,Cooking Oil 1L,Grocery,3,150,450,Cash
+05-01-2026,Tea Powder,Grocery,4,105,420,Cash
+06-01-2026,Soap Bar,Household,14,28,392,UPI
+07-01-2026,Shampoo 180ml,Household,4,120,480,Card
+08-01-2026,Tomatoes 1kg,Vegetables,9,45,405,Cash
+08-01-2026,Onions 1kg,Vegetables,8,40,320,Cash
+10-01-2026,Curd 500g,Dairy,6,55,330,UPI
+12-01-2026,Butter 200g,Dairy,3,110,330,Card
+15-01-2026,Chicken 1kg,Meat,3,260,780,Cash
+18-01-2026,Pasta 500g,Grocery,6,75,450,UPI
+22-01-2026,Toothpaste,Household,7,65,455,Card
+26-01-2026,Oranges 1kg,Fruits,6,120,720,Cash
+29-01-2026,Ice Cream,Dairy,5,95,475,Card
+01-02-2026,Sugar 1kg,Grocery,9,48,432,UPI
+01-02-2026,Detergent 1kg,Household,5,170,850,Cash
+03-02-2026,Milk 1L,Dairy,12,58,696,UPI
+04-02-2026,Bread,Bakery,10,35,350,UPI
+06-02-2026,Apples 1kg,Fruits,7,130,910,Cash
+07-02-2026,Bananas,Fruits,15,60,900,Cash
+09-02-2026,Rice 5kg,Grocery,3,320,960,Card
+11-02-2026,Cooking Oil 1L,Grocery,4,155,620,Cash
+12-02-2026,Tea Powder,Grocery,6,105,630,Cash
+14-02-2026,Soap Bar,Household,18,28,504,UPI
+16-02-2026,Shampoo 180ml,Household,5,120,600,Card
+17-02-2026,Tomatoes 1kg,Vegetables,11,45,495,Cash
+18-02-2026,Onions 1kg,Vegetables,10,40,400,Cash
+20-02-2026,Curd 500g,Dairy,8,55,440,UPI
+21-02-2026,Butter 200g,Dairy,4,110,440,Card
+23-02-2026,Chicken 1kg,Meat,4,260,1040,Cash
+24-02-2026,Pasta 500g,Grocery,8,75,600,UPI
+26-02-2026,Toothpaste,Household,9,65,585,Card
+27-02-2026,Oranges 1kg,Fruits,8,120,960,Cash
+28-02-2026,Ice Cream,Dairy,6,95,570,Card

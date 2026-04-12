@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}{{ label }} Report - Sales{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1>{{ label }} Report</h1>
+    <a href="{{ url_for('reports_page') }}" class="btn btn-secondary">← Back to Reports</a>
+</div>
+<div class="stats-row">
+    <div class="stat-card stat-card-gross">
+        <div class="stat-label">Total Gross</div>
+        <div class="stat-value">₹{{ "{:,.2f}".format(total) }}</div>
+        <div class="stat-meta">period total</div>
+    </div>
+    <div class="stat-card stat-card-count">
+        <div class="stat-label">Transactions</div>
+        <div class="stat-value">{{ sales|length }}</div>
+        <div class="stat-meta">count</div>
+    </div>
+</div>
+<div class="manage-card">
+    <h3>Sales List</h3>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Product ID</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Gross</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for s in sales %}
+            <tr>
+                <td>{{ s.get('date', s.get('created_at', '-'))[:19] }}</td>
+                <td>{{ s.get('product_id', '-') }}</td>
+                <td>{{ s.get('quantity', 0) }}</td>
+                <td>₹{{ "%.2f"|format(s.get('price', 0)) }}</td>
+                <td>₹{{ "%.2f"|format(s.get('gross_amount', s.get('amount', s.get('total', 0)))) }}</td>
+            </tr>
+            {% endfor %}
+            {% if not sales %}
+            <tr><td colspan="5">No sales in this period</td></tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

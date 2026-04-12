@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}Dashboard - Sales{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1>Dashboard</h1>
+    <p>Overall sales & reports</p>
+</div>
+<div class="stats-row">
+    <div class="stat-card stat-card-gross">
+        <div class="stat-label">Today's Gross</div>
+        <div class="stat-value">₹{{ "{:,.2f}".format(total_today) }}</div>
+        {% if growth_pct is not none %}
+        <div class="stat-change stat-change-up">↑ {{ "%.2f"|format(growth_pct) }}%</div>
+        {% endif %}
+    </div>
+    <div class="stat-card stat-card-count">
+        <div class="stat-label">Transactions Today</div>
+        <div class="stat-value">{{ today_count }}</div>
+        <div class="stat-meta">count</div>
+    </div>
+</div>
+<div class="charts-row">
+    <div class="chart-card">
+        <h3>Monthly Gross (Last 12 Months)</h3>
+        <canvas id="monthlyChart" height="200"></canvas>
+    </div>
+    <div class="chart-card">
+        <h3>Today's Gross by Hour</h3>
+        <canvas id="hourlyChart" height="200"></canvas>
+    </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    new Chart(document.getElementById('monthlyChart'), {
+        type: 'bar',
+        data: {
+            labels: {{ chart_labels | tojson }},
+            datasets: [{
+                label: 'Gross (₹)',
+                data: {{ chart_data | tojson }},
+                backgroundColor: 'rgba(59, 130, 246, 0.7)',
+                borderColor: 'rgba(59, 130, 246, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+    new Chart(document.getElementById('hourlyChart'), {
+        type: 'bar',
+        data: {
+            labels: {{ hour_labels | tojson }},
+            datasets: [{
+                label: 'Gross (₹)',
+                data: {{ hour_data | tojson }},
+                backgroundColor: 'rgba(34, 197, 94, 0.7)',
+                borderColor: 'rgba(34, 197, 94, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+});
+</script>
+{% endblock %}

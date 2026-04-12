@@ -1,0 +1,46 @@
+Date,Product,Category,Quantity,Unit Price,Gross Amount,Payment Mode
+01-03-2026,Sugar 1kg,Grocery,7,50,350,UPI
+01-03-2026,Detergent 1kg,Household,4,175,700,Cash
+02-03-2026,Eggs Pack,Dairy,9,90,810,Card
+03-03-2026,Milk 1L,Dairy,14,60,840,UPI
+03-03-2026,Bread,Bakery,12,38,456,UPI
+04-03-2026,Apples 1kg,Fruits,6,140,840,Cash
+05-03-2026,Bananas,Fruits,18,55,990,Cash
+06-03-2026,Rice 5kg,Grocery,2,340,680,Card
+07-03-2026,Cooking Oil 1L,Grocery,5,160,800,Cash
+08-03-2026,Tea Powder,Grocery,7,110,770,Cash
+09-03-2026,Soap Bar,Household,20,30,600,UPI
+10-03-2026,Shampoo 180ml,Household,6,125,750,Card
+11-03-2026,Tomatoes 1kg,Vegetables,13,48,624,Cash
+12-03-2026,Onions 1kg,Vegetables,12,42,504,Cash
+13-03-2026,Curd 500g,Dairy,9,58,522,UPI
+14-03-2026,Butter 200g,Dairy,5,115,575,Card
+16-03-2026,Chicken 1kg,Meat,5,270,1350,Cash
+18-03-2026,Pasta 500g,Grocery,10,78,780,UPI
+20-03-2026,Toothpaste,Household,11,70,770,Card
+22-03-2026,Oranges 1kg,Fruits,9,125,1125,Cash
+25-03-2026,Ice Cream,Dairy,7,100,700,Card
+28-03-2026,Paneer 200g,Dairy,6,95,570,UPI
+31-03-2026,Chips,Snacks,16,25,400,Cash
+01-04-2026,Sugar 1kg,Grocery,8,52,416,UPI
+02-04-2026,Detergent 1kg,Household,6,180,1080,Cash
+03-04-2026,Milk 1L,Dairy,16,62,992,UPI
+04-04-2026,Bread,Bakery,14,40,560,UPI
+05-04-2026,Apples 1kg,Fruits,8,145,1160,Cash
+06-04-2026,Bananas,Fruits,20,58,1160,Cash
+07-04-2026,Rice 5kg,Grocery,3,350,1050,Card
+08-04-2026,Cooking Oil 1L,Grocery,6,165,990,Cash
+09-04-2026,Tea Powder,Grocery,8,112,896,Cash
+10-04-2026,Soap Bar,Household,24,30,720,UPI
+11-04-2026,Shampoo 180ml,Household,7,128,896,Card
+12-04-2026,Tomatoes 1kg,Vegetables,15,50,750,Cash
+13-04-2026,Onions 1kg,Vegetables,14,44,616,Cash
+14-04-2026,Curd 500g,Dairy,10,60,600,UPI
+15-04-2026,Butter 200g,Dairy,6,118,708,Card
+17-04-2026,Chicken 1kg,Meat,6,275,1650,Cash
+19-04-2026,Pasta 500g,Grocery,12,80,960,UPI
+21-04-2026,Toothpaste,Household,12,72,864,Card
+23-04-2026,Oranges 1kg,Fruits,10,130,1300,Cash
+26-04-2026,Ice Cream,Dairy,8,105,840,Card
+28-04-2026,Paneer 200g,Dairy,7,98,686,UPI
+30-04-2026,Chips,Snacks,18,25,450,Cash

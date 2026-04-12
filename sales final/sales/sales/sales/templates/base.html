@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Sales Dashboard{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-layout">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>AI Based Product Demand and sales Trend Analysis</h1>
+                <span class="dashboard-badge">Dashboard</span>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="{{ url_for('dashboard') }}" class="nav-item {% if request.endpoint == 'dashboard' %}active{% endif %}">
+                    <span class="nav-icon">📊</span>
+                    Dashboard
+                </a>
+                <a href="{{ url_for('sales_page') }}" class="nav-item {% if request.endpoint == 'sales_page' %}active{% endif %}">
+                    <span class="nav-icon">🛒</span>
+                    New Sale
+                </a>
+                <hr class="nav-divider">
+                <a href="{{ url_for('products_page') }}" class="nav-item {% if request.endpoint == 'products_page' %}active{% endif %}">
+                    <span class="nav-icon">📦</span>
+                    Manage Products
+                </a>
+                <a href="{{ url_for('categories_page') }}" class="nav-item {% if request.endpoint == 'categories_page' %}active{% endif %}">
+                    <span class="nav-icon">📁</span>
+                    Manage Categories
+                </a>
+                <hr class="nav-divider">
+                <a href="{{ url_for('reports_page') }}" class="nav-item {% if request.endpoint == 'reports_page' %}active{% endif %}">
+                    <span class="nav-icon">📈</span>
+                    Reports
+                </a>
+                <a href="{{ url_for('report_today') }}" class="nav-item {% if request.endpoint == 'report_today' %}active{% endif %}">
+                    <span class="nav-icon">📅</span>
+                    Today Sales
+                </a>
+                <a href="{{ url_for('report_monthly') }}" class="nav-item {% if request.endpoint == 'report_monthly' %}active{% endif %}">
+                    <span class="nav-icon">📆</span>
+                    Monthly Sales
+                </a>
+                <a href="{{ url_for('report_products') }}" class="nav-item {% if request.endpoint == 'report_products' %}active{% endif %}">
+                    <span class="nav-icon">📋</span>
+                    Product Reports
+                </a>
+                <a href="{{ url_for('report_ai_prediction') }}" class="nav-item {% if request.endpoint == 'report_ai_prediction' %}active{% endif %}">
+                    <span class="nav-icon">🤖</span>
+                    AI Prediction
+                </a>
+                <a href="{{ url_for('report_ai_analyzer') }}" class="nav-item {% if request.endpoint == 'report_ai_analyzer' %}active{% endif %}">
+                    <span class="nav-icon">🔬</span>
+                    AI Analyzer
+                </a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="{{ url_for('logout') }}" class="nav-item nav-logout">
+                    <span class="nav-icon">🚪</span>
+                    Logout
+                </a>
+            </div>
+        </aside>
+        <main class="main-content">
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

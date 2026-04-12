@@ -1,0 +1,1181 @@
+Date,Product,Category,Quantity,Unit Price,Gross Amount,Payment Mode
+01-01-2026,Sugar 1kg,Grocery,8,48,384,Card
+01-01-2026,Sugar 1kg,Grocery,5,48,240,Card
+01-01-2026,Detergent 1kg,Household,6,170,1020,Cash
+01-01-2026,Eggs Pack,Dairy,6,85,510,Card
+01-01-2026,Milk 1L,Dairy,5,58,290,UPI
+01-01-2026,Apples 1kg,Fruits,2,130,260,Cash
+01-01-2026,Bread,Bakery,4,35,140,UPI
+01-01-2026,Detergent 1kg,Household,6,170,1020,Card
+01-01-2026,Tea Powder,Grocery,3,105,315,Cash
+01-01-2026,Cooking Oil 1L,Grocery,6,150,900,Cash
+01-01-2026,Bananas,Fruits,5,60,300,Cash
+01-01-2026,Detergent 1kg,Household,3,170,510,Cash
+01-01-2026,Eggs Pack,Dairy,7,85,595,UPI
+01-01-2026,Apples 1kg,Fruits,6,130,780,Cash
+01-01-2026,Rice 5kg,Grocery,1,320,320,Cash
+01-01-2026,Bread,Bakery,1,35,35,Card
+01-01-2026,Curd 500g,Dairy,3,40,120,UPI
+01-01-2026,Apples 1kg,Fruits,6,130,780,Card
+01-01-2026,Tea Powder,Grocery,3,105,315,UPI
+01-01-2026,Soft Drink 1L,Beverages,3,75,225,UPI
+02-01-2026,Sugar 1kg,Grocery,3,48,144,Card
+02-01-2026,Potatoes 1kg,Vegetables,7,35,245,Card
+02-01-2026,Rice 5kg,Grocery,1,320,320,UPI
+02-01-2026,Biscuits,Snacks,7,25,175,UPI
+02-01-2026,Potatoes 1kg,Vegetables,2,35,70,Cash
+02-01-2026,Potatoes 1kg,Vegetables,2,35,70,Cash
+02-01-2026,Apples 1kg,Fruits,2,130,260,Card
+02-01-2026,Rice 5kg,Grocery,8,320,2560,UPI
+02-01-2026,Biscuits,Snacks,8,25,200,UPI
+02-01-2026,Detergent 1kg,Household,1,170,170,UPI
+02-01-2026,Eggs Pack,Dairy,4,85,340,Card
+02-01-2026,Toothpaste,Personal Care,6,90,540,Card
+02-01-2026,Rice 5kg,Grocery,7,320,2240,UPI
+02-01-2026,Milk 1L,Dairy,8,58,464,Card
+02-01-2026,Eggs Pack,Dairy,2,85,170,UPI
+02-01-2026,Bath Soap,Personal Care,4,32,128,Cash
+02-01-2026,Cooking Oil 1L,Grocery,7,150,1050,UPI
+02-01-2026,Rice 5kg,Grocery,6,320,1920,Card
+02-01-2026,Detergent 1kg,Household,2,170,340,UPI
+02-01-2026,Bread,Bakery,5,35,175,Card
+03-01-2026,Wheat Flour 5kg,Grocery,1,280,280,Cash
+03-01-2026,Eggs Pack,Dairy,7,85,595,Cash
+03-01-2026,Toothpaste,Personal Care,8,90,720,Card
+03-01-2026,Potatoes 1kg,Vegetables,7,35,245,Card
+03-01-2026,Cooking Oil 1L,Grocery,2,150,300,Cash
+03-01-2026,Curd 500g,Dairy,5,40,200,Card
+03-01-2026,Apples 1kg,Fruits,5,130,650,UPI
+03-01-2026,Potatoes 1kg,Vegetables,1,35,35,Card
+03-01-2026,Tomatoes 1kg,Vegetables,7,40,280,UPI
+03-01-2026,Soft Drink 1L,Beverages,7,75,525,Cash
+03-01-2026,Shampoo,Personal Care,5,115,575,Card
+03-01-2026,Tomatoes 1kg,Vegetables,5,40,200,Card
+03-01-2026,Cooking Oil 1L,Grocery,5,150,750,UPI
+03-01-2026,Bath Soap,Personal Care,1,32,32,UPI
+03-01-2026,Detergent 1kg,Household,4,170,680,Card
+03-01-2026,Cooking Oil 1L,Grocery,3,150,450,Cash
+03-01-2026,Bread,Bakery,3,35,105,Card
+03-01-2026,Milk 1L,Dairy,6,58,348,Cash
+03-01-2026,Wheat Flour 5kg,Grocery,4,280,1120,Cash
+03-01-2026,Apples 1kg,Fruits,6,130,780,UPI
+04-01-2026,Bread,Bakery,2,35,70,Card
+04-01-2026,Eggs Pack,Dairy,4,85,340,Card
+04-01-2026,Tomatoes 1kg,Vegetables,3,40,120,UPI
+04-01-2026,Bath Soap,Personal Care,2,32,64,UPI
+04-01-2026,Potatoes 1kg,Vegetables,7,35,245,Card
+04-01-2026,Potatoes 1kg,Vegetables,5,35,175,Card
+04-01-2026,Curd 500g,Dairy,8,40,320,UPI
+04-01-2026,Sugar 1kg,Grocery,2,48,96,UPI
+04-01-2026,Detergent 1kg,Household,4,170,680,Cash
+04-01-2026,Biscuits,Snacks,2,25,50,Card
+04-01-2026,Sugar 1kg,Grocery,7,48,336,Card
+04-01-2026,Bread,Bakery,7,35,245,Card
+04-01-2026,Milk 1L,Dairy,5,58,290,Card
+04-01-2026,Curd 500g,Dairy,1,40,40,Cash
+04-01-2026,Bananas,Fruits,8,60,480,Card
+04-01-2026,Biscuits,Snacks,5,25,125,Card
+04-01-2026,Detergent 1kg,Household,3,170,510,Card
+04-01-2026,Biscuits,Snacks,7,25,175,UPI
+04-01-2026,Bread,Bakery,7,35,245,UPI
+04-01-2026,Eggs Pack,Dairy,8,85,680,UPI
+05-01-2026,Curd 500g,Dairy,5,40,200,UPI
+05-01-2026,Tomatoes 1kg,Vegetables,7,40,280,UPI
+05-01-2026,Detergent 1kg,Household,6,170,1020,Cash
+05-01-2026,Bananas,Fruits,8,60,480,Card
+05-01-2026,Wheat Flour 5kg,Grocery,2,280,560,Card
+05-01-2026,Tomatoes 1kg,Vegetables,3,40,120,Card
+05-01-2026,Potatoes 1kg,Vegetables,7,35,245,UPI
+05-01-2026,Apples 1kg,Fruits,3,130,390,Cash
+05-01-2026,Detergent 1kg,Household,6,170,1020,UPI
+05-01-2026,Toothpaste,Personal Care,1,90,90,UPI
+05-01-2026,Apples 1kg,Fruits,6,130,780,Card
+05-01-2026,Biscuits,Snacks,1,25,25,Card
+05-01-2026,Eggs Pack,Dairy,5,85,425,UPI
+05-01-2026,Eggs Pack,Dairy,1,85,85,Card
+05-01-2026,Toothpaste,Personal Care,2,90,180,UPI
+05-01-2026,Curd 500g,Dairy,5,40,200,Card
+05-01-2026,Detergent 1kg,Household,4,170,680,UPI
+05-01-2026,Bananas,Fruits,8,60,480,UPI
+05-01-2026,Tomatoes 1kg,Vegetables,8,40,320,UPI
+05-01-2026,Curd 500g,Dairy,6,40,240,UPI
+06-01-2026,Wheat Flour 5kg,Grocery,7,280,1960,Card
+06-01-2026,Bread,Bakery,2,35,70,Card
+06-01-2026,Wheat Flour 5kg,Grocery,8,280,2240,Cash
+06-01-2026,Toothpaste,Personal Care,4,90,360,Cash
+06-01-2026,Biscuits,Snacks,1,25,25,Card
+06-01-2026,Bath Soap,Personal Care,1,32,32,UPI
+06-01-2026,Bananas,Fruits,4,60,240,Cash
+06-01-2026,Curd 500g,Dairy,7,40,280,Cash
+06-01-2026,Eggs Pack,Dairy,2,85,170,UPI
+06-01-2026,Shampoo,Personal Care,2,115,230,Cash
+06-01-2026,Detergent 1kg,Household,4,170,680,Card
+06-01-2026,Tomatoes 1kg,Vegetables,8,40,320,Card
+06-01-2026,Eggs Pack,Dairy,6,85,510,UPI
+06-01-2026,Tomatoes 1kg,Vegetables,4,40,160,Cash
+06-01-2026,Milk 1L,Dairy,4,58,232,Cash
+06-01-2026,Tea Powder,Grocery,6,105,630,UPI
+06-01-2026,Milk 1L,Dairy,6,58,348,Cash
+06-01-2026,Shampoo,Personal Care,7,115,805,Cash
+06-01-2026,Tea Powder,Grocery,6,105,630,UPI
+06-01-2026,Bread,Bakery,5,35,175,Cash
+07-01-2026,Shampoo,Personal Care,5,115,575,UPI
+07-01-2026,Cooking Oil 1L,Grocery,1,150,150,UPI
+07-01-2026,Bath Soap,Personal Care,1,32,32,UPI
+07-01-2026,Rice 5kg,Grocery,5,320,1600,UPI
+07-01-2026,Bread,Bakery,1,35,35,Cash
+07-01-2026,Shampoo,Personal Care,3,115,345,Card
+07-01-2026,Cooking Oil 1L,Grocery,3,150,450,Cash
+07-01-2026,Tea Powder,Grocery,8,105,840,Card
+07-01-2026,Potatoes 1kg,Vegetables,8,35,280,Cash
+07-01-2026,Eggs Pack,Dairy,8,85,680,Card
+07-01-2026,Soft Drink 1L,Beverages,6,75,450,UPI
+07-01-2026,Detergent 1kg,Household,1,170,170,UPI
+07-01-2026,Shampoo,Personal Care,5,115,575,Cash
+07-01-2026,Detergent 1kg,Household,2,170,340,Cash
+07-01-2026,Tomatoes 1kg,Vegetables,6,40,240,Cash
+07-01-2026,Soft Drink 1L,Beverages,6,75,450,Cash
+07-01-2026,Cooking Oil 1L,Grocery,3,150,450,Cash
+07-01-2026,Tomatoes 1kg,Vegetables,7,40,280,Card
+07-01-2026,Bananas,Fruits,5,60,300,UPI
+07-01-2026,Tomatoes 1kg,Vegetables,7,40,280,Cash
+08-01-2026,Curd 500g,Dairy,2,40,80,UPI
+08-01-2026,Potatoes 1kg,Vegetables,1,35,35,Card
+08-01-2026,Detergent 1kg,Household,3,170,510,UPI
+08-01-2026,Cooking Oil 1L,Grocery,7,150,1050,Card
+08-01-2026,Sugar 1kg,Grocery,4,48,192,Card
+08-01-2026,Rice 5kg,Grocery,8,320,2560,UPI
+08-01-2026,Biscuits,Snacks,8,25,200,UPI
+08-01-2026,Toothpaste,Personal Care,7,90,630,UPI
+08-01-2026,Bath Soap,Personal Care,2,32,64,Card
+08-01-2026,Rice 5kg,Grocery,2,320,640,Cash
+08-01-2026,Bread,Bakery,6,35,210,Cash
+08-01-2026,Soft Drink 1L,Beverages,5,75,375,Card
+08-01-2026,Milk 1L,Dairy,4,58,232,Cash
+08-01-2026,Detergent 1kg,Household,7,170,1190,Cash
+08-01-2026,Wheat Flour 5kg,Grocery,3,280,840,Cash
+08-01-2026,Cooking Oil 1L,Grocery,4,150,600,Card
+08-01-2026,Potatoes 1kg,Vegetables,2,35,70,Cash
+08-01-2026,Bread,Bakery,6,35,210,UPI
+08-01-2026,Bananas,Fruits,8,60,480,UPI
+08-01-2026,Bananas,Fruits,8,60,480,Card
+09-01-2026,Detergent 1kg,Household,2,170,340,Card
+09-01-2026,Rice 5kg,Grocery,5,320,1600,UPI
+09-01-2026,Eggs Pack,Dairy,2,85,170,Card
+09-01-2026,Apples 1kg,Fruits,7,130,910,UPI
+09-01-2026,Tomatoes 1kg,Vegetables,6,40,240,Cash
+09-01-2026,Milk 1L,Dairy,5,58,290,UPI
+09-01-2026,Toothpaste,Personal Care,7,90,630,Cash
+09-01-2026,Bread,Bakery,8,35,280,Card
+09-01-2026,Eggs Pack,Dairy,5,85,425,Card
+09-01-2026,Soft Drink 1L,Beverages,8,75,600,Cash
+09-01-2026,Milk 1L,Dairy,7,58,406,Card
+09-01-2026,Bread,Bakery,1,35,35,Cash
+09-01-2026,Wheat Flour 5kg,Grocery,8,280,2240,Cash
+09-01-2026,Rice 5kg,Grocery,4,320,1280,UPI
+09-01-2026,Cooking Oil 1L,Grocery,7,150,1050,UPI
+09-01-2026,Bananas,Fruits,8,60,480,UPI
+09-01-2026,Bananas,Fruits,4,60,240,Card
+09-01-2026,Detergent 1kg,Household,8,170,1360,Card
+09-01-2026,Tomatoes 1kg,Vegetables,6,40,240,Card
+09-01-2026,Rice 5kg,Grocery,4,320,1280,UPI
+10-01-2026,Biscuits,Snacks,6,25,150,UPI
+10-01-2026,Bread,Bakery,2,35,70,Cash
+10-01-2026,Apples 1kg,Fruits,6,130,780,Card
+10-01-2026,Sugar 1kg,Grocery,1,48,48,UPI
+10-01-2026,Tomatoes 1kg,Vegetables,5,40,200,Cash
+10-01-2026,Potatoes 1kg,Vegetables,6,35,210,Cash
+10-01-2026,Potatoes 1kg,Vegetables,8,35,280,Cash
+10-01-2026,Detergent 1kg,Household,7,170,1190,UPI
+10-01-2026,Milk 1L,Dairy,8,58,464,Card
+10-01-2026,Eggs Pack,Dairy,2,85,170,Card
+10-01-2026,Potatoes 1kg,Vegetables,1,35,35,Cash
+10-01-2026,Apples 1kg,Fruits,1,130,130,UPI
+10-01-2026,Bananas,Fruits,6,60,360,Card
+10-01-2026,Eggs Pack,Dairy,6,85,510,UPI
+10-01-2026,Bananas,Fruits,2,60,120,Cash
+10-01-2026,Bananas,Fruits,6,60,360,Card
+10-01-2026,Rice 5kg,Grocery,5,320,1600,UPI
+10-01-2026,Wheat Flour 5kg,Grocery,5,280,1400,Card
+10-01-2026,Shampoo,Personal Care,2,115,230,Card
+10-01-2026,Eggs Pack,Dairy,1,85,85,Card
+11-01-2026,Bread,Bakery,5,35,175,Cash
+11-01-2026,Wheat Flour 5kg,Grocery,7,280,1960,Card
+11-01-2026,Shampoo,Personal Care,7,115,805,UPI
+11-01-2026,Bread,Bakery,6,35,210,Cash
+11-01-2026,Bananas,Fruits,2,60,120,UPI
+11-01-2026,Rice 5kg,Grocery,7,320,2240,Card
+11-01-2026,Bananas,Fruits,4,60,240,Cash
+11-01-2026,Eggs Pack,Dairy,5,85,425,UPI
+11-01-2026,Bread,Bakery,4,35,140,Card
+11-01-2026,Curd 500g,Dairy,6,40,240,Card
+11-01-2026,Wheat Flour 5kg,Grocery,7,280,1960,Card
+11-01-2026,Cooking Oil 1L,Grocery,3,150,450,UPI
+11-01-2026,Bath Soap,Personal Care,5,32,160,Card
+11-01-2026,Biscuits,Snacks,5,25,125,UPI
+11-01-2026,Shampoo,Personal Care,3,115,345,Cash
+11-01-2026,Rice 5kg,Grocery,4,320,1280,Card
+11-01-2026,Soft Drink 1L,Beverages,8,75,600,UPI
+11-01-2026,Apples 1kg,Fruits,2,130,260,Card
+11-01-2026,Bath Soap,Personal Care,5,32,160,UPI
+11-01-2026,Wheat Flour 5kg,Grocery,1,280,280,Card
+12-01-2026,Apples 1kg,Fruits,3,130,390,Cash
+12-01-2026,Apples 1kg,Fruits,5,130,650,UPI
+12-01-2026,Apples 1kg,Fruits,7,130,910,Cash
+12-01-2026,Toothpaste,Personal Care,1,90,90,UPI
+12-01-2026,Bath Soap,Personal Care,2,32,64,Cash
+12-01-2026,Apples 1kg,Fruits,8,130,1040,Card
+12-01-2026,Cooking Oil 1L,Grocery,2,150,300,Card
+12-01-2026,Shampoo,Personal Care,8,115,920,UPI
+12-01-2026,Milk 1L,Dairy,4,58,232,Cash
+12-01-2026,Rice 5kg,Grocery,4,320,1280,Cash
+12-01-2026,Milk 1L,Dairy,4,58,232,UPI
+12-01-2026,Shampoo,Personal Care,5,115,575,UPI
+12-01-2026,Bath Soap,Personal Care,5,32,160,UPI
+12-01-2026,Toothpaste,Personal Care,8,90,720,Card
+12-01-2026,Milk 1L,Dairy,3,58,174,Cash
+12-01-2026,Apples 1kg,Fruits,2,130,260,Card
+12-01-2026,Potatoes 1kg,Vegetables,1,35,35,Cash
+12-01-2026,Milk 1L,Dairy,5,58,290,Card
+12-01-2026,Tomatoes 1kg,Vegetables,4,40,160,Card
+12-01-2026,Eggs Pack,Dairy,7,85,595,Cash
+13-01-2026,Apples 1kg,Fruits,8,130,1040,Cash
+13-01-2026,Wheat Flour 5kg,Grocery,5,280,1400,Cash
+13-01-2026,Tea Powder,Grocery,3,105,315,UPI
+13-01-2026,Wheat Flour 5kg,Grocery,2,280,560,Cash
+13-01-2026,Toothpaste,Personal Care,7,90,630,UPI
+13-01-2026,Milk 1L,Dairy,5,58,290,UPI
+13-01-2026,Bananas,Fruits,8,60,480,UPI
+13-01-2026,Toothpaste,Personal Care,7,90,630,UPI
+13-01-2026,Toothpaste,Personal Care,7,90,630,Card
+13-01-2026,Potatoes 1kg,Vegetables,8,35,280,Card
+13-01-2026,Milk 1L,Dairy,5,58,290,Card
+13-01-2026,Tea Powder,Grocery,2,105,210,Cash
+13-01-2026,Bath Soap,Personal Care,2,32,64,UPI
+13-01-2026,Eggs Pack,Dairy,6,85,510,Card
+13-01-2026,Shampoo,Personal Care,8,115,920,UPI
+13-01-2026,Eggs Pack,Dairy,8,85,680,Cash
+13-01-2026,Wheat Flour 5kg,Grocery,2,280,560,Cash
+13-01-2026,Wheat Flour 5kg,Grocery,3,280,840,UPI
+13-01-2026,Bread,Bakery,7,35,245,Card
+13-01-2026,Sugar 1kg,Grocery,7,48,336,Cash
+14-01-2026,Bath Soap,Personal Care,4,32,128,Cash
+14-01-2026,Cooking Oil 1L,Grocery,6,150,900,Cash
+14-01-2026,Tomatoes 1kg,Vegetables,6,40,240,Cash
+14-01-2026,Shampoo,Personal Care,1,115,115,Cash
+14-01-2026,Detergent 1kg,Household,2,170,340,UPI
+14-01-2026,Sugar 1kg,Grocery,3,48,144,Cash
+14-01-2026,Curd 500g,Dairy,8,40,320,Cash
+14-01-2026,Eggs Pack,Dairy,7,85,595,Card
+14-01-2026,Shampoo,Personal Care,1,115,115,Cash
+14-01-2026,Shampoo,Personal Care,6,115,690,UPI
+14-01-2026,Soft Drink 1L,Beverages,2,75,150,Cash
+14-01-2026,Cooking Oil 1L,Grocery,6,150,900,UPI
+14-01-2026,Toothpaste,Personal Care,5,90,450,Card
+14-01-2026,Shampoo,Personal Care,5,115,575,Card
+14-01-2026,Bath Soap,Personal Care,3,32,96,UPI
+14-01-2026,Rice 5kg,Grocery,4,320,1280,Cash
+14-01-2026,Soft Drink 1L,Beverages,5,75,375,UPI
+14-01-2026,Rice 5kg,Grocery,5,320,1600,UPI
+14-01-2026,Tomatoes 1kg,Vegetables,4,40,160,Card
+14-01-2026,Soft Drink 1L,Beverages,7,75,525,Cash
+15-01-2026,Potatoes 1kg,Vegetables,7,35,245,UPI
+15-01-2026,Apples 1kg,Fruits,8,130,1040,Card
+15-01-2026,Bananas,Fruits,2,60,120,UPI
+15-01-2026,Sugar 1kg,Grocery,1,48,48,Cash
+15-01-2026,Eggs Pack,Dairy,2,85,170,Cash
+15-01-2026,Shampoo,Personal Care,6,115,690,Card
+15-01-2026,Eggs Pack,Dairy,3,85,255,Card
+15-01-2026,Soft Drink 1L,Beverages,8,75,600,Cash
+15-01-2026,Detergent 1kg,Household,5,170,850,UPI
+15-01-2026,Apples 1kg,Fruits,8,130,1040,Card
+15-01-2026,Apples 1kg,Fruits,7,130,910,Card
+15-01-2026,Bath Soap,Personal Care,6,32,192,UPI
+15-01-2026,Curd 500g,Dairy,1,40,40,Cash
+15-01-2026,Curd 500g,Dairy,8,40,320,Cash
+15-01-2026,Wheat Flour 5kg,Grocery,7,280,1960,Card
+15-01-2026,Eggs Pack,Dairy,4,85,340,UPI
+15-01-2026,Eggs Pack,Dairy,3,85,255,UPI
+15-01-2026,Soft Drink 1L,Beverages,1,75,75,Card
+15-01-2026,Biscuits,Snacks,2,25,50,Cash
+15-01-2026,Detergent 1kg,Household,3,170,510,Card
+16-01-2026,Rice 5kg,Grocery,1,320,320,Cash
+16-01-2026,Wheat Flour 5kg,Grocery,4,280,1120,Cash
+16-01-2026,Milk 1L,Dairy,5,58,290,UPI
+16-01-2026,Eggs Pack,Dairy,3,85,255,Cash
+16-01-2026,Bread,Bakery,2,35,70,Cash
+16-01-2026,Potatoes 1kg,Vegetables,2,35,70,UPI
+16-01-2026,Cooking Oil 1L,Grocery,4,150,600,UPI
+16-01-2026,Tomatoes 1kg,Vegetables,6,40,240,Cash
+16-01-2026,Cooking Oil 1L,Grocery,7,150,1050,UPI
+16-01-2026,Potatoes 1kg,Vegetables,4,35,140,Card
+16-01-2026,Sugar 1kg,Grocery,6,48,288,Card
+16-01-2026,Sugar 1kg,Grocery,4,48,192,Cash
+16-01-2026,Soft Drink 1L,Beverages,6,75,450,Card
+16-01-2026,Eggs Pack,Dairy,6,85,510,Card
+16-01-2026,Shampoo,Personal Care,4,115,460,UPI
+16-01-2026,Shampoo,Personal Care,1,115,115,Card
+16-01-2026,Potatoes 1kg,Vegetables,5,35,175,UPI
+16-01-2026,Apples 1kg,Fruits,8,130,1040,Cash
+16-01-2026,Bananas,Fruits,3,60,180,Card
+16-01-2026,Eggs Pack,Dairy,4,85,340,UPI
+17-01-2026,Potatoes 1kg,Vegetables,5,35,175,Cash
+17-01-2026,Curd 500g,Dairy,2,40,80,Card
+17-01-2026,Sugar 1kg,Grocery,6,48,288,Card
+17-01-2026,Biscuits,Snacks,7,25,175,UPI
+17-01-2026,Wheat Flour 5kg,Grocery,2,280,560,UPI
+17-01-2026,Apples 1kg,Fruits,4,130,520,Card
+17-01-2026,Shampoo,Personal Care,1,115,115,Card
+17-01-2026,Curd 500g,Dairy,3,40,120,Cash
+17-01-2026,Cooking Oil 1L,Grocery,6,150,900,Card
+17-01-2026,Apples 1kg,Fruits,1,130,130,UPI
+17-01-2026,Eggs Pack,Dairy,6,85,510,UPI
+17-01-2026,Toothpaste,Personal Care,6,90,540,Cash
+17-01-2026,Potatoes 1kg,Vegetables,2,35,70,Cash
+17-01-2026,Wheat Flour 5kg,Grocery,7,280,1960,Cash
+17-01-2026,Rice 5kg,Grocery,7,320,2240,UPI
+17-01-2026,Rice 5kg,Grocery,6,320,1920,Cash
+17-01-2026,Potatoes 1kg,Vegetables,8,35,280,UPI
+17-01-2026,Detergent 1kg,Household,8,170,1360,Cash
+17-01-2026,Tea Powder,Grocery,3,105,315,UPI
+17-01-2026,Curd 500g,Dairy,4,40,160,UPI
+18-01-2026,Cooking Oil 1L,Grocery,6,150,900,Card
+18-01-2026,Curd 500g,Dairy,6,40,240,UPI
+18-01-2026,Cooking Oil 1L,Grocery,4,150,600,Cash
+18-01-2026,Bananas,Fruits,7,60,420,Cash
+18-01-2026,Shampoo,Personal Care,1,115,115,UPI
+18-01-2026,Potatoes 1kg,Vegetables,2,35,70,Card
+18-01-2026,Curd 500g,Dairy,2,40,80,Cash
+18-01-2026,Bread,Bakery,5,35,175,UPI
+18-01-2026,Shampoo,Personal Care,1,115,115,Cash
+18-01-2026,Curd 500g,Dairy,1,40,40,Cash
+18-01-2026,Tomatoes 1kg,Vegetables,5,40,200,Cash
+18-01-2026,Wheat Flour 5kg,Grocery,6,280,1680,Cash
+18-01-2026,Bath Soap,Personal Care,6,32,192,Card
+18-01-2026,Apples 1kg,Fruits,7,130,910,UPI
+18-01-2026,Cooking Oil 1L,Grocery,2,150,300,Card
+18-01-2026,Soft Drink 1L,Beverages,4,75,300,Card
+18-01-2026,Potatoes 1kg,Vegetables,6,35,210,Cash
+18-01-2026,Toothpaste,Personal Care,8,90,720,UPI
+18-01-2026,Potatoes 1kg,Vegetables,1,35,35,UPI
+18-01-2026,Rice 5kg,Grocery,1,320,320,UPI
+19-01-2026,Wheat Flour 5kg,Grocery,7,280,1960,UPI
+19-01-2026,Wheat Flour 5kg,Grocery,4,280,1120,Card
+19-01-2026,Toothpaste,Personal Care,3,90,270,Card
+19-01-2026,Biscuits,Snacks,3,25,75,Card
+19-01-2026,Bath Soap,Personal Care,2,32,64,UPI
+19-01-2026,Tomatoes 1kg,Vegetables,8,40,320,UPI
+19-01-2026,Toothpaste,Personal Care,3,90,270,Cash
+19-01-2026,Curd 500g,Dairy,4,40,160,Cash
+19-01-2026,Tea Powder,Grocery,4,105,420,Card
+19-01-2026,Cooking Oil 1L,Grocery,5,150,750,UPI
+19-01-2026,Bath Soap,Personal Care,7,32,224,Card
+19-01-2026,Bath Soap,Personal Care,1,32,32,UPI
+19-01-2026,Wheat Flour 5kg,Grocery,1,280,280,Cash
+19-01-2026,Bath Soap,Personal Care,4,32,128,Cash
+19-01-2026,Biscuits,Snacks,8,25,200,Card
+19-01-2026,Bananas,Fruits,4,60,240,Card
+19-01-2026,Toothpaste,Personal Care,1,90,90,Card
+19-01-2026,Rice 5kg,Grocery,4,320,1280,Cash
+19-01-2026,Wheat Flour 5kg,Grocery,2,280,560,Card
+19-01-2026,Cooking Oil 1L,Grocery,4,150,600,Cash
+20-01-2026,Detergent 1kg,Household,4,170,680,Cash
+20-01-2026,Wheat Flour 5kg,Grocery,4,280,1120,Card
+20-01-2026,Soft Drink 1L,Beverages,2,75,150,Card
+20-01-2026,Rice 5kg,Grocery,7,320,2240,Cash
+20-01-2026,Bananas,Fruits,7,60,420,UPI
+20-01-2026,Cooking Oil 1L,Grocery,3,150,450,UPI
+20-01-2026,Bath Soap,Personal Care,6,32,192,Card
+20-01-2026,Bath Soap,Personal Care,7,32,224,Cash
+20-01-2026,Tea Powder,Grocery,3,105,315,Cash
+20-01-2026,Bananas,Fruits,4,60,240,Card
+20-01-2026,Cooking Oil 1L,Grocery,5,150,750,UPI
+20-01-2026,Soft Drink 1L,Beverages,4,75,300,Cash
+20-01-2026,Shampoo,Personal Care,8,115,920,UPI
+20-01-2026,Sugar 1kg,Grocery,6,48,288,UPI
+20-01-2026,Rice 5kg,Grocery,2,320,640,Cash
+20-01-2026,Milk 1L,Dairy,5,58,290,UPI
+20-01-2026,Bath Soap,Personal Care,8,32,256,UPI
+20-01-2026,Eggs Pack,Dairy,5,85,425,Card
+20-01-2026,Tea Powder,Grocery,1,105,105,UPI
+20-01-2026,Apples 1kg,Fruits,2,130,260,UPI
+21-01-2026,Milk 1L,Dairy,2,58,116,Card
+21-01-2026,Wheat Flour 5kg,Grocery,2,280,560,Cash
+21-01-2026,Sugar 1kg,Grocery,5,48,240,Card
+21-01-2026,Shampoo,Personal Care,7,115,805,Card
+21-01-2026,Soft Drink 1L,Beverages,4,75,300,Card
+21-01-2026,Rice 5kg,Grocery,2,320,640,Card
+21-01-2026,Tea Powder,Grocery,1,105,105,Card
+21-01-2026,Sugar 1kg,Grocery,5,48,240,UPI
+21-01-2026,Rice 5kg,Grocery,1,320,320,Card
+21-01-2026,Potatoes 1kg,Vegetables,1,35,35,UPI
+21-01-2026,Milk 1L,Dairy,3,58,174,UPI
+21-01-2026,Milk 1L,Dairy,8,58,464,Card
+21-01-2026,Milk 1L,Dairy,3,58,174,Card
+21-01-2026,Toothpaste,Personal Care,7,90,630,UPI
+21-01-2026,Eggs Pack,Dairy,7,85,595,Cash
+21-01-2026,Bread,Bakery,2,35,70,Cash
+21-01-2026,Eggs Pack,Dairy,1,85,85,UPI
+21-01-2026,Tomatoes 1kg,Vegetables,7,40,280,Card
+21-01-2026,Rice 5kg,Grocery,3,320,960,Card
+21-01-2026,Tomatoes 1kg,Vegetables,2,40,80,Cash
+22-01-2026,Soft Drink 1L,Beverages,1,75,75,Card
+22-01-2026,Eggs Pack,Dairy,7,85,595,UPI
+22-01-2026,Rice 5kg,Grocery,7,320,2240,Cash
+22-01-2026,Eggs Pack,Dairy,4,85,340,Cash
+22-01-2026,Sugar 1kg,Grocery,5,48,240,Cash
+22-01-2026,Potatoes 1kg,Vegetables,5,35,175,Card
+22-01-2026,Potatoes 1kg,Vegetables,3,35,105,UPI
+22-01-2026,Shampoo,Personal Care,4,115,460,Cash
+22-01-2026,Tea Powder,Grocery,8,105,840,Cash
+22-01-2026,Toothpaste,Personal Care,2,90,180,Cash
+22-01-2026,Curd 500g,Dairy,2,40,80,Card
+22-01-2026,Curd 500g,Dairy,2,40,80,UPI
+22-01-2026,Rice 5kg,Grocery,1,320,320,UPI
+22-01-2026,Detergent 1kg,Household,8,170,1360,Cash
+22-01-2026,Bananas,Fruits,1,60,60,Card
+22-01-2026,Biscuits,Snacks,3,25,75,Card
+22-01-2026,Bananas,Fruits,2,60,120,Card
+22-01-2026,Detergent 1kg,Household,8,170,1360,Card
+22-01-2026,Bath Soap,Personal Care,2,32,64,Cash
+22-01-2026,Rice 5kg,Grocery,4,320,1280,Card
+23-01-2026,Bananas,Fruits,8,60,480,Card
+23-01-2026,Detergent 1kg,Household,8,170,1360,Card
+23-01-2026,Potatoes 1kg,Vegetables,3,35,105,UPI
+23-01-2026,Eggs Pack,Dairy,5,85,425,UPI
+23-01-2026,Tea Powder,Grocery,6,105,630,Card
+23-01-2026,Rice 5kg,Grocery,2,320,640,Cash
+23-01-2026,Bath Soap,Personal Care,1,32,32,Card
+23-01-2026,Shampoo,Personal Care,2,115,230,Cash
+23-01-2026,Bananas,Fruits,5,60,300,UPI
+23-01-2026,Bread,Bakery,1,35,35,Card
+23-01-2026,Bananas,Fruits,3,60,180,Card
+23-01-2026,Potatoes 1kg,Vegetables,4,35,140,Card
+23-01-2026,Rice 5kg,Grocery,1,320,320,UPI
+23-01-2026,Milk 1L,Dairy,6,58,348,Cash
+23-01-2026,Eggs Pack,Dairy,6,85,510,Card
+23-01-2026,Tea Powder,Grocery,3,105,315,Card
+23-01-2026,Curd 500g,Dairy,3,40,120,Cash
+23-01-2026,Bread,Bakery,1,35,35,UPI
+23-01-2026,Eggs Pack,Dairy,4,85,340,UPI
+23-01-2026,Tomatoes 1kg,Vegetables,6,40,240,UPI
+24-01-2026,Potatoes 1kg,Vegetables,3,35,105,UPI
+24-01-2026,Bananas,Fruits,3,60,180,UPI
+24-01-2026,Cooking Oil 1L,Grocery,7,150,1050,Cash
+24-01-2026,Milk 1L,Dairy,3,58,174,UPI
+24-01-2026,Soft Drink 1L,Beverages,3,75,225,Cash
+24-01-2026,Milk 1L,Dairy,2,58,116,Cash
+24-01-2026,Bread,Bakery,1,35,35,UPI
+24-01-2026,Apples 1kg,Fruits,5,130,650,Cash
+24-01-2026,Bread,Bakery,5,35,175,Cash
+24-01-2026,Potatoes 1kg,Vegetables,5,35,175,Card
+24-01-2026,Eggs Pack,Dairy,2,85,170,UPI
+24-01-2026,Soft Drink 1L,Beverages,6,75,450,Cash
+24-01-2026,Tea Powder,Grocery,7,105,735,Card
+24-01-2026,Biscuits,Snacks,4,25,100,Card
+24-01-2026,Cooking Oil 1L,Grocery,4,150,600,UPI
+24-01-2026,Curd 500g,Dairy,8,40,320,Card
+24-01-2026,Wheat Flour 5kg,Grocery,2,280,560,UPI
+24-01-2026,Tea Powder,Grocery,4,105,420,UPI
+24-01-2026,Milk 1L,Dairy,8,58,464,Cash
+24-01-2026,Tea Powder,Grocery,7,105,735,Cash
+25-01-2026,Cooking Oil 1L,Grocery,2,150,300,UPI
+25-01-2026,Toothpaste,Personal Care,6,90,540,Card
+25-01-2026,Bread,Bakery,8,35,280,Cash
+25-01-2026,Apples 1kg,Fruits,5,130,650,Cash
+25-01-2026,Soft Drink 1L,Beverages,4,75,300,Card
+25-01-2026,Tomatoes 1kg,Vegetables,8,40,320,Cash
+25-01-2026,Biscuits,Snacks,4,25,100,UPI
+25-01-2026,Curd 500g,Dairy,4,40,160,Card
+25-01-2026,Wheat Flour 5kg,Grocery,3,280,840,Cash
+25-01-2026,Bath Soap,Personal Care,3,32,96,Card
+25-01-2026,Soft Drink 1L,Beverages,4,75,300,Card
+25-01-2026,Toothpaste,Personal Care,4,90,360,Card
+25-01-2026,Eggs Pack,Dairy,6,85,510,UPI
+25-01-2026,Milk 1L,Dairy,5,58,290,Cash
+25-01-2026,Bananas,Fruits,3,60,180,Cash
+25-01-2026,Cooking Oil 1L,Grocery,8,150,1200,UPI
+25-01-2026,Soft Drink 1L,Beverages,4,75,300,UPI
+25-01-2026,Tomatoes 1kg,Vegetables,4,40,160,Cash
+25-01-2026,Sugar 1kg,Grocery,8,48,384,UPI
+25-01-2026,Toothpaste,Personal Care,7,90,630,UPI
+26-01-2026,Rice 5kg,Grocery,2,320,640,Card
+26-01-2026,Biscuits,Snacks,7,25,175,Cash
+26-01-2026,Toothpaste,Personal Care,4,90,360,UPI
+26-01-2026,Tomatoes 1kg,Vegetables,5,40,200,Cash
+26-01-2026,Tea Powder,Grocery,5,105,525,Card
+26-01-2026,Detergent 1kg,Household,7,170,1190,UPI
+26-01-2026,Wheat Flour 5kg,Grocery,7,280,1960,Card
+26-01-2026,Apples 1kg,Fruits,1,130,130,Cash
+26-01-2026,Potatoes 1kg,Vegetables,6,35,210,Cash
+26-01-2026,Tomatoes 1kg,Vegetables,1,40,40,Cash
+26-01-2026,Biscuits,Snacks,5,25,125,Card
+26-01-2026,Curd 500g,Dairy,8,40,320,UPI
+26-01-2026,Bananas,Fruits,7,60,420,Cash
+26-01-2026,Bath Soap,Personal Care,5,32,160,Cash
+26-01-2026,Curd 500g,Dairy,6,40,240,UPI
+26-01-2026,Bath Soap,Personal Care,6,32,192,Card
+26-01-2026,Bath Soap,Personal Care,2,32,64,Cash
+26-01-2026,Tomatoes 1kg,Vegetables,2,40,80,Cash
+26-01-2026,Potatoes 1kg,Vegetables,5,35,175,UPI
+26-01-2026,Shampoo,Personal Care,4,115,460,Cash
+27-01-2026,Eggs Pack,Dairy,3,85,255,UPI
+27-01-2026,Wheat Flour 5kg,Grocery,6,280,1680,Cash
+27-01-2026,Shampoo,Personal Care,7,115,805,Cash
+27-01-2026,Soft Drink 1L,Beverages,6,75,450,Cash
+27-01-2026,Soft Drink 1L,Beverages,8,75,600,Card
+27-01-2026,Sugar 1kg,Grocery,2,48,96,Card
+27-01-2026,Tomatoes 1kg,Vegetables,7,40,280,UPI
+27-01-2026,Rice 5kg,Grocery,6,320,1920,Cash
+27-01-2026,Curd 500g,Dairy,8,40,320,Cash
+27-01-2026,Cooking Oil 1L,Grocery,3,150,450,UPI
+27-01-2026,Eggs Pack,Dairy,6,85,510,Cash
+27-01-2026,Curd 500g,Dairy,3,40,120,UPI
+27-01-2026,Cooking Oil 1L,Grocery,7,150,1050,Card
+27-01-2026,Sugar 1kg,Grocery,4,48,192,Cash
+27-01-2026,Potatoes 1kg,Vegetables,4,35,140,Cash
+27-01-2026,Apples 1kg,Fruits,8,130,1040,UPI
+27-01-2026,Bath Soap,Personal Care,1,32,32,Card
+27-01-2026,Bread,Bakery,8,35,280,UPI
+27-01-2026,Eggs Pack,Dairy,1,85,85,UPI
+27-01-2026,Shampoo,Personal Care,3,115,345,Cash
+28-01-2026,Biscuits,Snacks,5,25,125,UPI
+28-01-2026,Shampoo,Personal Care,5,115,575,Card
+28-01-2026,Curd 500g,Dairy,5,40,200,Card
+28-01-2026,Shampoo,Personal Care,2,115,230,Cash
+28-01-2026,Shampoo,Personal Care,3,115,345,Card
+28-01-2026,Shampoo,Personal Care,1,115,115,Card
+28-01-2026,Bath Soap,Personal Care,6,32,192,Cash
+28-01-2026,Tea Powder,Grocery,4,105,420,Card
+28-01-2026,Bath Soap,Personal Care,4,32,128,Card
+28-01-2026,Curd 500g,Dairy,4,40,160,Card
+28-01-2026,Toothpaste,Personal Care,3,90,270,UPI
+28-01-2026,Sugar 1kg,Grocery,5,48,240,Cash
+28-01-2026,Toothpaste,Personal Care,7,90,630,Cash
+28-01-2026,Cooking Oil 1L,Grocery,4,150,600,Cash
+28-01-2026,Milk 1L,Dairy,1,58,58,Cash
+28-01-2026,Potatoes 1kg,Vegetables,2,35,70,Card
+28-01-2026,Milk 1L,Dairy,6,58,348,UPI
+28-01-2026,Sugar 1kg,Grocery,4,48,192,Cash
+28-01-2026,Soft Drink 1L,Beverages,6,75,450,Cash
+28-01-2026,Rice 5kg,Grocery,3,320,960,UPI
+29-01-2026,Wheat Flour 5kg,Grocery,5,280,1400,Cash
+29-01-2026,Wheat Flour 5kg,Grocery,7,280,1960,UPI
+29-01-2026,Curd 500g,Dairy,7,40,280,Card
+29-01-2026,Milk 1L,Dairy,3,58,174,Cash
+29-01-2026,Toothpaste,Personal Care,5,90,450,Cash
+29-01-2026,Milk 1L,Dairy,5,58,290,Card
+29-01-2026,Wheat Flour 5kg,Grocery,5,280,1400,UPI
+29-01-2026,Detergent 1kg,Household,5,170,850,Cash
+29-01-2026,Curd 500g,Dairy,4,40,160,Cash
+29-01-2026,Milk 1L,Dairy,8,58,464,UPI
+29-01-2026,Toothpaste,Personal Care,7,90,630,UPI
+29-01-2026,Bananas,Fruits,3,60,180,Cash
+29-01-2026,Eggs Pack,Dairy,1,85,85,Cash
+29-01-2026,Rice 5kg,Grocery,8,320,2560,UPI
+29-01-2026,Eggs Pack,Dairy,5,85,425,Cash
+29-01-2026,Bananas,Fruits,5,60,300,Cash
+29-01-2026,Curd 500g,Dairy,2,40,80,UPI
+29-01-2026,Wheat Flour 5kg,Grocery,1,280,280,Card
+29-01-2026,Detergent 1kg,Household,6,170,1020,Card
+29-01-2026,Rice 5kg,Grocery,6,320,1920,Card
+30-01-2026,Soft Drink 1L,Beverages,7,75,525,Card
+30-01-2026,Curd 500g,Dairy,4,40,160,Cash
+30-01-2026,Detergent 1kg,Household,8,170,1360,UPI
+30-01-2026,Potatoes 1kg,Vegetables,1,35,35,Card
+30-01-2026,Detergent 1kg,Household,5,170,850,Cash
+30-01-2026,Sugar 1kg,Grocery,4,48,192,Card
+30-01-2026,Cooking Oil 1L,Grocery,7,150,1050,UPI
+30-01-2026,Shampoo,Personal Care,5,115,575,Cash
+30-01-2026,Apples 1kg,Fruits,5,130,650,Card
+30-01-2026,Biscuits,Snacks,5,25,125,UPI
+30-01-2026,Toothpaste,Personal Care,8,90,720,Cash
+30-01-2026,Wheat Flour 5kg,Grocery,5,280,1400,UPI
+30-01-2026,Eggs Pack,Dairy,8,85,680,Cash
+30-01-2026,Rice 5kg,Grocery,4,320,1280,UPI
+30-01-2026,Shampoo,Personal Care,1,115,115,Cash
+30-01-2026,Tea Powder,Grocery,6,105,630,Card
+30-01-2026,Shampoo,Personal Care,8,115,920,Card
+30-01-2026,Bath Soap,Personal Care,7,32,224,Cash
+30-01-2026,Wheat Flour 5kg,Grocery,5,280,1400,Cash
+30-01-2026,Detergent 1kg,Household,2,170,340,Card
+31-01-2026,Sugar 1kg,Grocery,8,48,384,UPI
+31-01-2026,Potatoes 1kg,Vegetables,4,35,140,Cash
+31-01-2026,Detergent 1kg,Household,6,170,1020,UPI
+31-01-2026,Soft Drink 1L,Beverages,3,75,225,Cash
+31-01-2026,Eggs Pack,Dairy,5,85,425,Card
+31-01-2026,Wheat Flour 5kg,Grocery,1,280,280,Cash
+31-01-2026,Toothpaste,Personal Care,3,90,270,Card
+31-01-2026,Tea Powder,Grocery,3,105,315,Card
+31-01-2026,Bread,Bakery,1,35,35,Cash
+31-01-2026,Wheat Flour 5kg,Grocery,5,280,1400,Cash
+31-01-2026,Apples 1kg,Fruits,3,130,390,UPI
+31-01-2026,Rice 5kg,Grocery,7,320,2240,UPI
+31-01-2026,Wheat Flour 5kg,Grocery,7,280,1960,Cash
+31-01-2026,Apples 1kg,Fruits,5,130,650,Cash
+31-01-2026,Shampoo,Personal Care,2,115,230,Cash
+31-01-2026,Tea Powder,Grocery,7,105,735,Cash
+31-01-2026,Curd 500g,Dairy,5,40,200,Cash
+31-01-2026,Curd 500g,Dairy,6,40,240,Card
+31-01-2026,Potatoes 1kg,Vegetables,4,35,140,Cash
+31-01-2026,Bananas,Fruits,8,60,480,UPI
+01-02-2026,Bath Soap,Personal Care,2,32,64,Card
+01-02-2026,Detergent 1kg,Household,2,170,340,Card
+01-02-2026,Milk 1L,Dairy,3,58,174,Card
+01-02-2026,Soft Drink 1L,Beverages,2,75,150,Card
+01-02-2026,Bread,Bakery,5,35,175,Cash
+01-02-2026,Tea Powder,Grocery,7,105,735,Cash
+01-02-2026,Tea Powder,Grocery,3,105,315,Card
+01-02-2026,Milk 1L,Dairy,2,58,116,Card
+01-02-2026,Tomatoes 1kg,Vegetables,7,40,280,Card
+01-02-2026,Rice 5kg,Grocery,2,320,640,Cash
+01-02-2026,Potatoes 1kg,Vegetables,1,35,35,UPI
+01-02-2026,Shampoo,Personal Care,1,115,115,Card
+01-02-2026,Bread,Bakery,4,35,140,Card
+01-02-2026,Bath Soap,Personal Care,3,32,96,UPI
+01-02-2026,Wheat Flour 5kg,Grocery,2,280,560,Cash
+01-02-2026,Apples 1kg,Fruits,3,130,390,Card
+01-02-2026,Milk 1L,Dairy,2,58,116,Card
+01-02-2026,Soft Drink 1L,Beverages,1,75,75,Cash
+01-02-2026,Biscuits,Snacks,1,25,25,UPI
+01-02-2026,Shampoo,Personal Care,8,115,920,Cash
+02-02-2026,Cooking Oil 1L,Grocery,6,150,900,Card
+02-02-2026,Rice 5kg,Grocery,5,320,1600,UPI
+02-02-2026,Detergent 1kg,Household,7,170,1190,UPI
+02-02-2026,Eggs Pack,Dairy,5,85,425,Cash
+02-02-2026,Toothpaste,Personal Care,3,90,270,UPI
+02-02-2026,Curd 500g,Dairy,4,40,160,Cash
+02-02-2026,Potatoes 1kg,Vegetables,4,35,140,Card
+02-02-2026,Bread,Bakery,2,35,70,Cash
+02-02-2026,Biscuits,Snacks,7,25,175,Card
+02-02-2026,Tea Powder,Grocery,6,105,630,Card
+02-02-2026,Shampoo,Personal Care,7,115,805,Cash
+02-02-2026,Rice 5kg,Grocery,3,320,960,Card
+02-02-2026,Milk 1L,Dairy,8,58,464,Cash
+02-02-2026,Tea Powder,Grocery,1,105,105,Card
+02-02-2026,Toothpaste,Personal Care,7,90,630,Cash
+02-02-2026,Bath Soap,Personal Care,5,32,160,UPI
+02-02-2026,Eggs Pack,Dairy,5,85,425,Card
+02-02-2026,Bread,Bakery,1,35,35,Cash
+02-02-2026,Tea Powder,Grocery,4,105,420,Cash
+02-02-2026,Milk 1L,Dairy,3,58,174,Cash
+03-02-2026,Shampoo,Personal Care,1,115,115,UPI
+03-02-2026,Biscuits,Snacks,2,25,50,Cash
+03-02-2026,Toothpaste,Personal Care,8,90,720,UPI
+03-02-2026,Bananas,Fruits,7,60,420,Card
+03-02-2026,Soft Drink 1L,Beverages,4,75,300,Card
+03-02-2026,Shampoo,Personal Care,5,115,575,UPI
+03-02-2026,Detergent 1kg,Household,4,170,680,Card
+03-02-2026,Wheat Flour 5kg,Grocery,8,280,2240,Card
+03-02-2026,Soft Drink 1L,Beverages,1,75,75,Card
+03-02-2026,Wheat Flour 5kg,Grocery,8,280,2240,Cash
+03-02-2026,Tomatoes 1kg,Vegetables,5,40,200,Card
+03-02-2026,Tea Powder,Grocery,2,105,210,Card
+03-02-2026,Detergent 1kg,Household,6,170,1020,UPI
+03-02-2026,Tea Powder,Grocery,4,105,420,Cash
+03-02-2026,Sugar 1kg,Grocery,3,48,144,UPI
+03-02-2026,Milk 1L,Dairy,4,58,232,Card
+03-02-2026,Sugar 1kg,Grocery,8,48,384,Cash
+03-02-2026,Bananas,Fruits,4,60,240,Card
+03-02-2026,Biscuits,Snacks,2,25,50,UPI
+03-02-2026,Wheat Flour 5kg,Grocery,1,280,280,Cash
+04-02-2026,Tea Powder,Grocery,5,105,525,Cash
+04-02-2026,Cooking Oil 1L,Grocery,2,150,300,UPI
+04-02-2026,Tomatoes 1kg,Vegetables,8,40,320,Cash
+04-02-2026,Biscuits,Snacks,7,25,175,Cash
+04-02-2026,Bananas,Fruits,2,60,120,UPI
+04-02-2026,Tea Powder,Grocery,2,105,210,UPI
+04-02-2026,Apples 1kg,Fruits,2,130,260,UPI
+04-02-2026,Milk 1L,Dairy,3,58,174,Card
+04-02-2026,Bananas,Fruits,2,60,120,Card
+04-02-2026,Biscuits,Snacks,1,25,25,Cash
+04-02-2026,Cooking Oil 1L,Grocery,6,150,900,Cash
+04-02-2026,Wheat Flour 5kg,Grocery,3,280,840,UPI
+04-02-2026,Wheat Flour 5kg,Grocery,6,280,1680,Card
+04-02-2026,Apples 1kg,Fruits,8,130,1040,UPI
+04-02-2026,Milk 1L,Dairy,8,58,464,UPI
+04-02-2026,Shampoo,Personal Care,4,115,460,Card
+04-02-2026,Tea Powder,Grocery,2,105,210,Card
+04-02-2026,Curd 500g,Dairy,6,40,240,Card
+04-02-2026,Tea Powder,Grocery,2,105,210,UPI
+04-02-2026,Shampoo,Personal Care,8,115,920,Cash
+05-02-2026,Bread,Bakery,4,35,140,Card
+05-02-2026,Bananas,Fruits,6,60,360,Card
+05-02-2026,Shampoo,Personal Care,2,115,230,UPI
+05-02-2026,Tea Powder,Grocery,8,105,840,UPI
+05-02-2026,Bread,Bakery,8,35,280,Card
+05-02-2026,Potatoes 1kg,Vegetables,8,35,280,UPI
+05-02-2026,Toothpaste,Personal Care,4,90,360,Cash
+05-02-2026,Soft Drink 1L,Beverages,2,75,150,Cash
+05-02-2026,Milk 1L,Dairy,6,58,348,UPI
+05-02-2026,Toothpaste,Personal Care,7,90,630,Card
+05-02-2026,Biscuits,Snacks,6,25,150,Card
+05-02-2026,Detergent 1kg,Household,2,170,340,Cash
+05-02-2026,Bananas,Fruits,8,60,480,Cash
+05-02-2026,Bananas,Fruits,8,60,480,Card
+05-02-2026,Cooking Oil 1L,Grocery,2,150,300,Cash
+05-02-2026,Potatoes 1kg,Vegetables,3,35,105,Card
+05-02-2026,Potatoes 1kg,Vegetables,2,35,70,UPI
+05-02-2026,Tea Powder,Grocery,4,105,420,UPI
+05-02-2026,Bread,Bakery,6,35,210,Cash
+05-02-2026,Eggs Pack,Dairy,2,85,170,Card
+06-02-2026,Soft Drink 1L,Beverages,3,75,225,Cash
+06-02-2026,Soft Drink 1L,Beverages,2,75,150,Card
+06-02-2026,Toothpaste,Personal Care,2,90,180,Cash
+06-02-2026,Sugar 1kg,Grocery,2,48,96,Card
+06-02-2026,Rice 5kg,Grocery,8,320,2560,Cash
+06-02-2026,Soft Drink 1L,Beverages,3,75,225,Card
+06-02-2026,Rice 5kg,Grocery,2,320,640,UPI
+06-02-2026,Detergent 1kg,Household,1,170,170,UPI
+06-02-2026,Cooking Oil 1L,Grocery,1,150,150,Card
+06-02-2026,Soft Drink 1L,Beverages,4,75,300,UPI
+06-02-2026,Bread,Bakery,5,35,175,Card
+06-02-2026,Curd 500g,Dairy,5,40,200,Card
+06-02-2026,Detergent 1kg,Household,4,170,680,Cash
+06-02-2026,Shampoo,Personal Care,7,115,805,Card
+06-02-2026,Soft Drink 1L,Beverages,3,75,225,UPI
+06-02-2026,Eggs Pack,Dairy,7,85,595,UPI
+06-02-2026,Bananas,Fruits,8,60,480,UPI
+06-02-2026,Rice 5kg,Grocery,5,320,1600,UPI
+06-02-2026,Wheat Flour 5kg,Grocery,2,280,560,UPI
+06-02-2026,Toothpaste,Personal Care,2,90,180,UPI
+07-02-2026,Rice 5kg,Grocery,5,320,1600,Cash
+07-02-2026,Potatoes 1kg,Vegetables,5,35,175,UPI
+07-02-2026,Rice 5kg,Grocery,4,320,1280,UPI
+07-02-2026,Bath Soap,Personal Care,4,32,128,Cash
+07-02-2026,Tomatoes 1kg,Vegetables,2,40,80,UPI
+07-02-2026,Wheat Flour 5kg,Grocery,5,280,1400,Cash
+07-02-2026,Toothpaste,Personal Care,2,90,180,Cash
+07-02-2026,Curd 500g,Dairy,1,40,40,UPI
+07-02-2026,Bananas,Fruits,6,60,360,UPI
+07-02-2026,Tea Powder,Grocery,6,105,630,Card
+07-02-2026,Apples 1kg,Fruits,8,130,1040,Card
+07-02-2026,Curd 500g,Dairy,7,40,280,Card
+07-02-2026,Shampoo,Personal Care,2,115,230,UPI
+07-02-2026,Bath Soap,Personal Care,8,32,256,Card
+07-02-2026,Eggs Pack,Dairy,3,85,255,Cash
+07-02-2026,Detergent 1kg,Household,2,170,340,Card
+07-02-2026,Potatoes 1kg,Vegetables,1,35,35,Card
+07-02-2026,Bread,Bakery,7,35,245,UPI
+07-02-2026,Shampoo,Personal Care,1,115,115,Cash
+07-02-2026,Biscuits,Snacks,3,25,75,Cash
+08-02-2026,Eggs Pack,Dairy,7,85,595,UPI
+08-02-2026,Detergent 1kg,Household,6,170,1020,Cash
+08-02-2026,Bread,Bakery,3,35,105,UPI
+08-02-2026,Curd 500g,Dairy,7,40,280,Cash
+08-02-2026,Bath Soap,Personal Care,4,32,128,Card
+08-02-2026,Bananas,Fruits,5,60,300,Card
+08-02-2026,Rice 5kg,Grocery,8,320,2560,Card
+08-02-2026,Shampoo,Personal Care,2,115,230,Card
+08-02-2026,Apples 1kg,Fruits,8,130,1040,Card
+08-02-2026,Bread,Bakery,1,35,35,Cash
+08-02-2026,Tea Powder,Grocery,5,105,525,Card
+08-02-2026,Curd 500g,Dairy,5,40,200,Card
+08-02-2026,Apples 1kg,Fruits,8,130,1040,Cash
+08-02-2026,Potatoes 1kg,Vegetables,8,35,280,Cash
+08-02-2026,Biscuits,Snacks,3,25,75,UPI
+08-02-2026,Rice 5kg,Grocery,4,320,1280,UPI
+08-02-2026,Bath Soap,Personal Care,2,32,64,Cash
+08-02-2026,Bath Soap,Personal Care,7,32,224,Card
+08-02-2026,Curd 500g,Dairy,7,40,280,UPI
+08-02-2026,Toothpaste,Personal Care,3,90,270,Card
+09-02-2026,Apples 1kg,Fruits,6,130,780,UPI
+09-02-2026,Bath Soap,Personal Care,3,32,96,UPI
+09-02-2026,Apples 1kg,Fruits,6,130,780,UPI
+09-02-2026,Soft Drink 1L,Beverages,8,75,600,Cash
+09-02-2026,Bread,Bakery,2,35,70,Card
+09-02-2026,Bananas,Fruits,6,60,360,UPI
+09-02-2026,Tea Powder,Grocery,1,105,105,Cash
+09-02-2026,Detergent 1kg,Household,7,170,1190,Cash
+09-02-2026,Tomatoes 1kg,Vegetables,6,40,240,Cash
+09-02-2026,Wheat Flour 5kg,Grocery,8,280,2240,UPI
+09-02-2026,Sugar 1kg,Grocery,1,48,48,Card
+09-02-2026,Apples 1kg,Fruits,6,130,780,UPI
+09-02-2026,Tomatoes 1kg,Vegetables,1,40,40,Cash
+09-02-2026,Toothpaste,Personal Care,4,90,360,Card
+09-02-2026,Shampoo,Personal Care,1,115,115,UPI
+09-02-2026,Detergent 1kg,Household,1,170,170,Card
+09-02-2026,Bread,Bakery,5,35,175,Card
+09-02-2026,Biscuits,Snacks,6,25,150,UPI
+09-02-2026,Toothpaste,Personal Care,7,90,630,Cash
+09-02-2026,Rice 5kg,Grocery,2,320,640,UPI
+10-02-2026,Milk 1L,Dairy,3,58,174,UPI
+10-02-2026,Bread,Bakery,6,35,210,Cash
+10-02-2026,Sugar 1kg,Grocery,2,48,96,UPI
+10-02-2026,Soft Drink 1L,Beverages,7,75,525,Cash
+10-02-2026,Eggs Pack,Dairy,6,85,510,UPI
+10-02-2026,Curd 500g,Dairy,5,40,200,Card
+10-02-2026,Bananas,Fruits,4,60,240,UPI
+10-02-2026,Biscuits,Snacks,2,25,50,UPI
+10-02-2026,Rice 5kg,Grocery,6,320,1920,Card
+10-02-2026,Rice 5kg,Grocery,3,320,960,Cash
+10-02-2026,Bath Soap,Personal Care,5,32,160,Cash
+10-02-2026,Milk 1L,Dairy,1,58,58,Cash
+10-02-2026,Apples 1kg,Fruits,7,130,910,Card
+10-02-2026,Bath Soap,Personal Care,6,32,192,Cash
+10-02-2026,Cooking Oil 1L,Grocery,1,150,150,Cash
+10-02-2026,Wheat Flour 5kg,Grocery,4,280,1120,Cash
+10-02-2026,Shampoo,Personal Care,5,115,575,Card
+10-02-2026,Curd 500g,Dairy,6,40,240,UPI
+10-02-2026,Milk 1L,Dairy,2,58,116,Cash
+10-02-2026,Curd 500g,Dairy,5,40,200,UPI
+11-02-2026,Shampoo,Personal Care,8,115,920,UPI
+11-02-2026,Curd 500g,Dairy,3,40,120,Cash
+11-02-2026,Eggs Pack,Dairy,1,85,85,Card
+11-02-2026,Cooking Oil 1L,Grocery,4,150,600,UPI
+11-02-2026,Sugar 1kg,Grocery,5,48,240,Cash
+11-02-2026,Rice 5kg,Grocery,7,320,2240,Card
+11-02-2026,Cooking Oil 1L,Grocery,4,150,600,Card
+11-02-2026,Detergent 1kg,Household,3,170,510,Cash
+11-02-2026,Bananas,Fruits,7,60,420,Card
+11-02-2026,Tomatoes 1kg,Vegetables,8,40,320,Cash
+11-02-2026,Curd 500g,Dairy,3,40,120,UPI
+11-02-2026,Wheat Flour 5kg,Grocery,3,280,840,Cash
+11-02-2026,Milk 1L,Dairy,1,58,58,Card
+11-02-2026,Detergent 1kg,Household,1,170,170,Cash
+11-02-2026,Biscuits,Snacks,3,25,75,Cash
+11-02-2026,Toothpaste,Personal Care,5,90,450,UPI
+11-02-2026,Eggs Pack,Dairy,7,85,595,UPI
+11-02-2026,Tomatoes 1kg,Vegetables,7,40,280,UPI
+11-02-2026,Cooking Oil 1L,Grocery,7,150,1050,Card
+11-02-2026,Toothpaste,Personal Care,4,90,360,Cash
+12-02-2026,Detergent 1kg,Household,8,170,1360,UPI
+12-02-2026,Detergent 1kg,Household,8,170,1360,UPI
+12-02-2026,Milk 1L,Dairy,5,58,290,Cash
+12-02-2026,Toothpaste,Personal Care,7,90,630,Cash
+12-02-2026,Tea Powder,Grocery,7,105,735,Card
+12-02-2026,Sugar 1kg,Grocery,2,48,96,Cash
+12-02-2026,Shampoo,Personal Care,2,115,230,UPI
+12-02-2026,Tea Powder,Grocery,3,105,315,Card
+12-02-2026,Eggs Pack,Dairy,7,85,595,UPI
+12-02-2026,Curd 500g,Dairy,2,40,80,Cash
+12-02-2026,Apples 1kg,Fruits,4,130,520,Cash
+12-02-2026,Eggs Pack,Dairy,1,85,85,Card
+12-02-2026,Soft Drink 1L,Beverages,8,75,600,Card
+12-02-2026,Apples 1kg,Fruits,1,130,130,UPI
+12-02-2026,Shampoo,Personal Care,6,115,690,UPI
+12-02-2026,Bread,Bakery,4,35,140,Card
+12-02-2026,Wheat Flour 5kg,Grocery,4,280,1120,UPI
+12-02-2026,Bath Soap,Personal Care,8,32,256,Cash
+12-02-2026,Tomatoes 1kg,Vegetables,2,40,80,Cash
+12-02-2026,Tomatoes 1kg,Vegetables,6,40,240,UPI
+13-02-2026,Bananas,Fruits,4,60,240,Cash
+13-02-2026,Bath Soap,Personal Care,1,32,32,UPI
+13-02-2026,Apples 1kg,Fruits,5,130,650,UPI
+13-02-2026,Milk 1L,Dairy,2,58,116,UPI
+13-02-2026,Bath Soap,Personal Care,5,32,160,UPI
+13-02-2026,Bananas,Fruits,5,60,300,Cash
+13-02-2026,Apples 1kg,Fruits,8,130,1040,Cash
+13-02-2026,Shampoo,Personal Care,3,115,345,UPI
+13-02-2026,Toothpaste,Personal Care,7,90,630,Card
+13-02-2026,Potatoes 1kg,Vegetables,6,35,210,UPI
+13-02-2026,Detergent 1kg,Household,8,170,1360,UPI
+13-02-2026,Toothpaste,Personal Care,2,90,180,Card
+13-02-2026,Wheat Flour 5kg,Grocery,8,280,2240,UPI
+13-02-2026,Bananas,Fruits,4,60,240,Cash
+13-02-2026,Curd 500g,Dairy,6,40,240,UPI
+13-02-2026,Soft Drink 1L,Beverages,7,75,525,Card
+13-02-2026,Biscuits,Snacks,7,25,175,Card
+13-02-2026,Potatoes 1kg,Vegetables,2,35,70,UPI
+13-02-2026,Bananas,Fruits,5,60,300,Cash
+13-02-2026,Shampoo,Personal Care,7,115,805,UPI
+14-02-2026,Wheat Flour 5kg,Grocery,8,280,2240,Cash
+14-02-2026,Cooking Oil 1L,Grocery,7,150,1050,Cash
+14-02-2026,Toothpaste,Personal Care,2,90,180,Cash
+14-02-2026,Curd 500g,Dairy,3,40,120,Card
+14-02-2026,Shampoo,Personal Care,6,115,690,Cash
+14-02-2026,Bread,Bakery,1,35,35,Card
+14-02-2026,Rice 5kg,Grocery,8,320,2560,Cash
+14-02-2026,Sugar 1kg,Grocery,1,48,48,UPI
+14-02-2026,Curd 500g,Dairy,7,40,280,Cash
+14-02-2026,Bread,Bakery,3,35,105,Card
+14-02-2026,Rice 5kg,Grocery,1,320,320,UPI
+14-02-2026,Bath Soap,Personal Care,6,32,192,Cash
+14-02-2026,Bananas,Fruits,6,60,360,UPI
+14-02-2026,Bananas,Fruits,5,60,300,Card
+14-02-2026,Biscuits,Snacks,6,25,150,Cash
+14-02-2026,Eggs Pack,Dairy,6,85,510,Cash
+14-02-2026,Bath Soap,Personal Care,1,32,32,Cash
+14-02-2026,Curd 500g,Dairy,5,40,200,UPI
+14-02-2026,Bananas,Fruits,1,60,60,Card
+14-02-2026,Bath Soap,Personal Care,5,32,160,Card
+15-02-2026,Sugar 1kg,Grocery,5,48,240,UPI
+15-02-2026,Rice 5kg,Grocery,2,320,640,UPI
+15-02-2026,Apples 1kg,Fruits,5,130,650,UPI
+15-02-2026,Tomatoes 1kg,Vegetables,3,40,120,Cash
+15-02-2026,Rice 5kg,Grocery,5,320,1600,Card
+15-02-2026,Potatoes 1kg,Vegetables,8,35,280,UPI
+15-02-2026,Shampoo,Personal Care,3,115,345,Card
+15-02-2026,Cooking Oil 1L,Grocery,6,150,900,Cash
+15-02-2026,Eggs Pack,Dairy,2,85,170,Cash
+15-02-2026,Milk 1L,Dairy,2,58,116,Cash
+15-02-2026,Bread,Bakery,2,35,70,Card
+15-02-2026,Rice 5kg,Grocery,8,320,2560,Card
+15-02-2026,Biscuits,Snacks,3,25,75,UPI
+15-02-2026,Sugar 1kg,Grocery,6,48,288,Cash
+15-02-2026,Toothpaste,Personal Care,3,90,270,Cash
+15-02-2026,Bread,Bakery,3,35,105,UPI
+15-02-2026,Curd 500g,Dairy,2,40,80,Card
+15-02-2026,Tea Powder,Grocery,2,105,210,UPI
+15-02-2026,Wheat Flour 5kg,Grocery,1,280,280,UPI
+15-02-2026,Bananas,Fruits,3,60,180,Card
+16-02-2026,Bread,Bakery,8,35,280,Cash
+16-02-2026,Milk 1L,Dairy,4,58,232,Card
+16-02-2026,Eggs Pack,Dairy,8,85,680,Card
+16-02-2026,Shampoo,Personal Care,8,115,920,UPI
+16-02-2026,Cooking Oil 1L,Grocery,8,150,1200,UPI
+16-02-2026,Biscuits,Snacks,7,25,175,UPI
+16-02-2026,Soft Drink 1L,Beverages,5,75,375,UPI
+16-02-2026,Eggs Pack,Dairy,7,85,595,UPI
+16-02-2026,Bananas,Fruits,8,60,480,Cash
+16-02-2026,Shampoo,Personal Care,2,115,230,Card
+16-02-2026,Toothpaste,Personal Care,5,90,450,Cash
+16-02-2026,Soft Drink 1L,Beverages,5,75,375,Card
+16-02-2026,Wheat Flour 5kg,Grocery,3,280,840,UPI
+16-02-2026,Sugar 1kg,Grocery,8,48,384,Cash
+16-02-2026,Biscuits,Snacks,2,25,50,Cash
+16-02-2026,Eggs Pack,Dairy,2,85,170,Card
+16-02-2026,Tomatoes 1kg,Vegetables,7,40,280,UPI
+16-02-2026,Sugar 1kg,Grocery,1,48,48,UPI
+16-02-2026,Rice 5kg,Grocery,7,320,2240,Card
+16-02-2026,Potatoes 1kg,Vegetables,8,35,280,Cash
+17-02-2026,Biscuits,Snacks,3,25,75,Cash
+17-02-2026,Apples 1kg,Fruits,5,130,650,Card
+17-02-2026,Wheat Flour 5kg,Grocery,5,280,1400,Cash
+17-02-2026,Tea Powder,Grocery,5,105,525,Cash
+17-02-2026,Tea Powder,Grocery,6,105,630,UPI
+17-02-2026,Sugar 1kg,Grocery,1,48,48,Card
+17-02-2026,Rice 5kg,Grocery,2,320,640,UPI
+17-02-2026,Detergent 1kg,Household,3,170,510,Card
+17-02-2026,Tomatoes 1kg,Vegetables,3,40,120,UPI
+17-02-2026,Biscuits,Snacks,2,25,50,Cash
+17-02-2026,Toothpaste,Personal Care,6,90,540,UPI
+17-02-2026,Sugar 1kg,Grocery,8,48,384,UPI
+17-02-2026,Sugar 1kg,Grocery,6,48,288,UPI
+17-02-2026,Bread,Bakery,1,35,35,Card
+17-02-2026,Wheat Flour 5kg,Grocery,7,280,1960,UPI
+17-02-2026,Biscuits,Snacks,3,25,75,Cash
+17-02-2026,Bananas,Fruits,5,60,300,Cash
+17-02-2026,Milk 1L,Dairy,4,58,232,UPI
+17-02-2026,Tomatoes 1kg,Vegetables,8,40,320,UPI
+17-02-2026,Biscuits,Snacks,7,25,175,Cash
+18-02-2026,Toothpaste,Personal Care,8,90,720,Cash
+18-02-2026,Rice 5kg,Grocery,4,320,1280,Cash
+18-02-2026,Tomatoes 1kg,Vegetables,3,40,120,UPI
+18-02-2026,Tea Powder,Grocery,8,105,840,UPI
+18-02-2026,Sugar 1kg,Grocery,7,48,336,Cash
+18-02-2026,Curd 500g,Dairy,4,40,160,Card
+18-02-2026,Milk 1L,Dairy,4,58,232,Card
+18-02-2026,Shampoo,Personal Care,4,115,460,Cash
+18-02-2026,Curd 500g,Dairy,8,40,320,UPI
+18-02-2026,Wheat Flour 5kg,Grocery,4,280,1120,Card
+18-02-2026,Bread,Bakery,6,35,210,Cash
+18-02-2026,Bananas,Fruits,3,60,180,Card
+18-02-2026,Bath Soap,Personal Care,4,32,128,Cash
+18-02-2026,Sugar 1kg,Grocery,4,48,192,Cash
+18-02-2026,Potatoes 1kg,Vegetables,4,35,140,Card
+18-02-2026,Soft Drink 1L,Beverages,8,75,600,UPI
+18-02-2026,Eggs Pack,Dairy,1,85,85,Cash
+18-02-2026,Potatoes 1kg,Vegetables,4,35,140,Card
+18-02-2026,Curd 500g,Dairy,4,40,160,Cash
+18-02-2026,Wheat Flour 5kg,Grocery,4,280,1120,Cash
+19-02-2026,Rice 5kg,Grocery,1,320,320,Card
+19-02-2026,Wheat Flour 5kg,Grocery,4,280,1120,Card
+19-02-2026,Tomatoes 1kg,Vegetables,1,40,40,Card
+19-02-2026,Shampoo,Personal Care,7,115,805,UPI
+19-02-2026,Rice 5kg,Grocery,3,320,960,Card
+19-02-2026,Curd 500g,Dairy,8,40,320,Card
+19-02-2026,Curd 500g,Dairy,7,40,280,Cash
+19-02-2026,Soft Drink 1L,Beverages,5,75,375,UPI
+19-02-2026,Toothpaste,Personal Care,8,90,720,Cash
+19-02-2026,Soft Drink 1L,Beverages,4,75,300,UPI
+19-02-2026,Eggs Pack,Dairy,2,85,170,UPI
+19-02-2026,Bath Soap,Personal Care,7,32,224,UPI
+19-02-2026,Rice 5kg,Grocery,3,320,960,UPI
+19-02-2026,Wheat Flour 5kg,Grocery,5,280,1400,Card
+19-02-2026,Rice 5kg,Grocery,2,320,640,Card
+19-02-2026,Sugar 1kg,Grocery,6,48,288,Cash
+19-02-2026,Bread,Bakery,1,35,35,UPI
+19-02-2026,Detergent 1kg,Household,1,170,170,UPI
+19-02-2026,Rice 5kg,Grocery,1,320,320,Card
+19-02-2026,Toothpaste,Personal Care,2,90,180,Card
+20-02-2026,Rice 5kg,Grocery,1,320,320,Card
+20-02-2026,Detergent 1kg,Household,1,170,170,Card
+20-02-2026,Cooking Oil 1L,Grocery,8,150,1200,Cash
+20-02-2026,Sugar 1kg,Grocery,7,48,336,Cash
+20-02-2026,Toothpaste,Personal Care,8,90,720,UPI
+20-02-2026,Detergent 1kg,Household,1,170,170,UPI
+20-02-2026,Toothpaste,Personal Care,4,90,360,Cash
+20-02-2026,Tomatoes 1kg,Vegetables,8,40,320,Card
+20-02-2026,Biscuits,Snacks,3,25,75,Card
+20-02-2026,Shampoo,Personal Care,5,115,575,Cash
+20-02-2026,Wheat Flour 5kg,Grocery,3,280,840,Cash
+20-02-2026,Shampoo,Personal Care,1,115,115,Cash
+20-02-2026,Tomatoes 1kg,Vegetables,1,40,40,Card
+20-02-2026,Potatoes 1kg,Vegetables,8,35,280,UPI
+20-02-2026,Eggs Pack,Dairy,5,85,425,Cash
+20-02-2026,Bread,Bakery,5,35,175,Card
+20-02-2026,Cooking Oil 1L,Grocery,8,150,1200,Card
+20-02-2026,Cooking Oil 1L,Grocery,8,150,1200,Card
+20-02-2026,Detergent 1kg,Household,5,170,850,Card
+20-02-2026,Curd 500g,Dairy,8,40,320,Cash
+21-02-2026,Bread,Bakery,5,35,175,UPI
+21-02-2026,Bath Soap,Personal Care,8,32,256,Cash
+21-02-2026,Soft Drink 1L,Beverages,1,75,75,UPI
+21-02-2026,Sugar 1kg,Grocery,5,48,240,Cash
+21-02-2026,Potatoes 1kg,Vegetables,1,35,35,Card
+21-02-2026,Potatoes 1kg,Vegetables,3,35,105,UPI
+21-02-2026,Rice 5kg,Grocery,6,320,1920,UPI
+21-02-2026,Bread,Bakery,8,35,280,Cash
+21-02-2026,Detergent 1kg,Household,3,170,510,Card
+21-02-2026,Potatoes 1kg,Vegetables,7,35,245,UPI
+21-02-2026,Detergent 1kg,Household,5,170,850,UPI
+21-02-2026,Apples 1kg,Fruits,3,130,390,UPI
+21-02-2026,Biscuits,Snacks,5,25,125,Card
+21-02-2026,Bath Soap,Personal Care,7,32,224,Cash
+21-02-2026,Sugar 1kg,Grocery,5,48,240,Card
+21-02-2026,Biscuits,Snacks,1,25,25,UPI
+21-02-2026,Biscuits,Snacks,3,25,75,Cash
+21-02-2026,Rice 5kg,Grocery,7,320,2240,UPI
+21-02-2026,Milk 1L,Dairy,8,58,464,UPI
+21-02-2026,Cooking Oil 1L,Grocery,5,150,750,UPI
+22-02-2026,Bread,Bakery,8,35,280,Card
+22-02-2026,Wheat Flour 5kg,Grocery,4,280,1120,Cash
+22-02-2026,Bananas,Fruits,5,60,300,UPI
+22-02-2026,Eggs Pack,Dairy,6,85,510,Cash
+22-02-2026,Wheat Flour 5kg,Grocery,5,280,1400,Card
+22-02-2026,Soft Drink 1L,Beverages,4,75,300,Card
+22-02-2026,Eggs Pack,Dairy,4,85,340,Card
+22-02-2026,Curd 500g,Dairy,3,40,120,Card
+22-02-2026,Milk 1L,Dairy,3,58,174,UPI
+22-02-2026,Sugar 1kg,Grocery,2,48,96,UPI
+22-02-2026,Wheat Flour 5kg,Grocery,1,280,280,UPI
+22-02-2026,Potatoes 1kg,Vegetables,5,35,175,Card
+22-02-2026,Milk 1L,Dairy,6,58,348,Cash
+22-02-2026,Biscuits,Snacks,8,25,200,UPI
+22-02-2026,Shampoo,Personal Care,4,115,460,UPI
+22-02-2026,Soft Drink 1L,Beverages,8,75,600,Card
+22-02-2026,Apples 1kg,Fruits,3,130,390,Cash
+22-02-2026,Tea Powder,Grocery,1,105,105,UPI
+22-02-2026,Biscuits,Snacks,2,25,50,UPI
+22-02-2026,Tomatoes 1kg,Vegetables,5,40,200,UPI
+23-02-2026,Bath Soap,Personal Care,8,32,256,UPI
+23-02-2026,Rice 5kg,Grocery,3,320,960,UPI
+23-02-2026,Bread,Bakery,8,35,280,Card
+23-02-2026,Soft Drink 1L,Beverages,2,75,150,UPI
+23-02-2026,Biscuits,Snacks,4,25,100,UPI
+23-02-2026,Rice 5kg,Grocery,3,320,960,Cash
+23-02-2026,Shampoo,Personal Care,2,115,230,UPI
+23-02-2026,Biscuits,Snacks,1,25,25,Cash
+23-02-2026,Toothpaste,Personal Care,2,90,180,Card
+23-02-2026,Wheat Flour 5kg,Grocery,2,280,560,Cash
+23-02-2026,Toothpaste,Personal Care,7,90,630,Cash
+23-02-2026,Eggs Pack,Dairy,8,85,680,Card
+23-02-2026,Soft Drink 1L,Beverages,7,75,525,Cash
+23-02-2026,Apples 1kg,Fruits,4,130,520,Cash
+23-02-2026,Milk 1L,Dairy,3,58,174,UPI
+23-02-2026,Soft Drink 1L,Beverages,1,75,75,Card
+23-02-2026,Rice 5kg,Grocery,4,320,1280,UPI
+23-02-2026,Cooking Oil 1L,Grocery,6,150,900,Cash
+23-02-2026,Sugar 1kg,Grocery,7,48,336,UPI
+23-02-2026,Detergent 1kg,Household,1,170,170,UPI
+24-02-2026,Cooking Oil 1L,Grocery,5,150,750,Card
+24-02-2026,Bath Soap,Personal Care,3,32,96,UPI
+24-02-2026,Potatoes 1kg,Vegetables,2,35,70,Card
+24-02-2026,Toothpaste,Personal Care,7,90,630,Cash
+24-02-2026,Soft Drink 1L,Beverages,4,75,300,Cash
+24-02-2026,Bath Soap,Personal Care,8,32,256,Cash
+24-02-2026,Apples 1kg,Fruits,5,130,650,Cash
+24-02-2026,Bath Soap,Personal Care,1,32,32,UPI
+24-02-2026,Tomatoes 1kg,Vegetables,7,40,280,UPI
+24-02-2026,Rice 5kg,Grocery,6,320,1920,Card
+24-02-2026,Shampoo,Personal Care,1,115,115,UPI
+24-02-2026,Bread,Bakery,1,35,35,Card
+24-02-2026,Bread,Bakery,5,35,175,UPI
+24-02-2026,Bananas,Fruits,2,60,120,Card
+24-02-2026,Biscuits,Snacks,5,25,125,UPI
+24-02-2026,Potatoes 1kg,Vegetables,7,35,245,UPI
+24-02-2026,Cooking Oil 1L,Grocery,5,150,750,UPI
+24-02-2026,Bread,Bakery,2,35,70,Card
+24-02-2026,Wheat Flour 5kg,Grocery,1,280,280,UPI
+24-02-2026,Tomatoes 1kg,Vegetables,5,40,200,UPI
+25-02-2026,Eggs Pack,Dairy,7,85,595,UPI
+25-02-2026,Rice 5kg,Grocery,3,320,960,UPI
+25-02-2026,Bananas,Fruits,3,60,180,UPI
+25-02-2026,Tomatoes 1kg,Vegetables,5,40,200,UPI
+25-02-2026,Eggs Pack,Dairy,1,85,85,UPI
+25-02-2026,Detergent 1kg,Household,5,170,850,Cash
+25-02-2026,Sugar 1kg,Grocery,2,48,96,Card
+25-02-2026,Toothpaste,Personal Care,7,90,630,Cash
+25-02-2026,Milk 1L,Dairy,5,58,290,Cash
+25-02-2026,Apples 1kg,Fruits,1,130,130,Cash
+25-02-2026,Apples 1kg,Fruits,3,130,390,Cash
+25-02-2026,Potatoes 1kg,Vegetables,5,35,175,Cash
+25-02-2026,Biscuits,Snacks,3,25,75,Cash
+25-02-2026,Potatoes 1kg,Vegetables,1,35,35,Cash
+25-02-2026,Tea Powder,Grocery,4,105,420,Cash
+25-02-2026,Rice 5kg,Grocery,1,320,320,UPI
+25-02-2026,Shampoo,Personal Care,6,115,690,Cash
+25-02-2026,Bread,Bakery,8,35,280,UPI
+25-02-2026,Curd 500g,Dairy,8,40,320,Card
+25-02-2026,Detergent 1kg,Household,5,170,850,Cash
+26-02-2026,Wheat Flour 5kg,Grocery,6,280,1680,UPI
+26-02-2026,Milk 1L,Dairy,4,58,232,Card
+26-02-2026,Tomatoes 1kg,Vegetables,5,40,200,Card
+26-02-2026,Rice 5kg,Grocery,8,320,2560,Card
+26-02-2026,Soft Drink 1L,Beverages,1,75,75,Cash
+26-02-2026,Eggs Pack,Dairy,3,85,255,UPI
+26-02-2026,Rice 5kg,Grocery,7,320,2240,UPI
+26-02-2026,Bath Soap,Personal Care,1,32,32,Card
+26-02-2026,Cooking Oil 1L,Grocery,7,150,1050,Card
+26-02-2026,Tea Powder,Grocery,6,105,630,Card
+26-02-2026,Cooking Oil 1L,Grocery,2,150,300,Cash
+26-02-2026,Bananas,Fruits,7,60,420,Cash
+26-02-2026,Biscuits,Snacks,1,25,25,Card
+26-02-2026,Soft Drink 1L,Beverages,2,75,150,UPI
+26-02-2026,Rice 5kg,Grocery,1,320,320,Cash
+26-02-2026,Wheat Flour 5kg,Grocery,4,280,1120,Cash
+26-02-2026,Eggs Pack,Dairy,2,85,170,UPI
+26-02-2026,Rice 5kg,Grocery,4,320,1280,Cash
+26-02-2026,Bath Soap,Personal Care,4,32,128,UPI
+26-02-2026,Eggs Pack,Dairy,8,85,680,Cash
+27-02-2026,Bananas,Fruits,7,60,420,Card
+27-02-2026,Tomatoes 1kg,Vegetables,2,40,80,UPI
+27-02-2026,Bananas,Fruits,1,60,60,Card
+27-02-2026,Cooking Oil 1L,Grocery,6,150,900,Card
+27-02-2026,Tomatoes 1kg,Vegetables,8,40,320,Card
+27-02-2026,Potatoes 1kg,Vegetables,7,35,245,UPI
+27-02-2026,Apples 1kg,Fruits,2,130,260,Card
+27-02-2026,Toothpaste,Personal Care,5,90,450,Card
+27-02-2026,Soft Drink 1L,Beverages,4,75,300,Card
+27-02-2026,Rice 5kg,Grocery,3,320,960,Card
+27-02-2026,Cooking Oil 1L,Grocery,2,150,300,UPI
+27-02-2026,Toothpaste,Personal Care,5,90,450,Card
+27-02-2026,Detergent 1kg,Household,4,170,680,UPI
+27-02-2026,Biscuits,Snacks,2,25,50,UPI
+27-02-2026,Wheat Flour 5kg,Grocery,1,280,280,Cash
+27-02-2026,Toothpaste,Personal Care,1,90,90,UPI
+27-02-2026,Soft Drink 1L,Beverages,5,75,375,Cash
+27-02-2026,Shampoo,Personal Care,3,115,345,Cash
+27-02-2026,Shampoo,Personal Care,3,115,345,Cash
+27-02-2026,Detergent 1kg,Household,1,170,170,UPI
+28-02-2026,Tomatoes 1kg,Vegetables,2,40,80,Card
+28-02-2026,Milk 1L,Dairy,2,58,116,Card
+28-02-2026,Milk 1L,Dairy,8,58,464,UPI
+28-02-2026,Bananas,Fruits,7,60,420,Card
+28-02-2026,Detergent 1kg,Household,7,170,1190,Cash
+28-02-2026,Bananas,Fruits,1,60,60,Card
+28-02-2026,Biscuits,Snacks,3,25,75,UPI
+28-02-2026,Potatoes 1kg,Vegetables,2,35,70,UPI
+28-02-2026,Soft Drink 1L,Beverages,6,75,450,Cash
+28-02-2026,Eggs Pack,Dairy,8,85,680,UPI
+28-02-2026,Curd 500g,Dairy,4,40,160,UPI
+28-02-2026,Apples 1kg,Fruits,7,130,910,UPI
+28-02-2026,Eggs Pack,Dairy,3,85,255,Cash
+28-02-2026,Tea Powder,Grocery,8,105,840,UPI
+28-02-2026,Apples 1kg,Fruits,1,130,130,UPI
+28-02-2026,Soft Drink 1L,Beverages,2,75,150,Cash
+28-02-2026,Apples 1kg,Fruits,1,130,130,UPI
+28-02-2026,Wheat Flour 5kg,Grocery,2,280,560,UPI
+28-02-2026,Wheat Flour 5kg,Grocery,5,280,1400,Card
+,,,,,,Card

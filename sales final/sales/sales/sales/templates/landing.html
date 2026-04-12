@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Based Product Demand and Sales Trend Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="landing-page">
+    <div class="landing-bg"></div>
+    <header class="landing-header">
+        <nav class="landing-nav">
+            <span class="landing-logo">SalesTrend AI</span>
+            <a href="{{ url_for('login') }}" class="btn-landing-login">Login</a>
+        </nav>
+    </header>
+    <main class="landing-main">
+        <h1 class="landing-title">AI Based Product Demand and Sales Trend Analysis</h1>
+        <p class="landing-tagline">Manage sales, predict demand, and grow with data-driven insights.</p>
+        <a href="{{ url_for('login') }}" class="btn-landing-cta">Get Started — Login</a>
+
+        <section class="landing-features">
+            <h2 class="landing-features-title">Features</h2>
+            <div class="landing-features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">📊</span>
+                    <h3>Dashboard</h3>
+                    <p>Real-time sales overview, today’s revenue, and charts (monthly & hourly).</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🛒</span>
+                    <h3>New Sale</h3>
+                    <p>Record sales by category and product with quantity and price.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">📦</span>
+                    <h3>Products & Categories</h3>
+                    <p>Manage products and categories with prices and organization.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">📈</span>
+                    <h3>Reports</h3>
+                    <p>Today, monthly, product-wise, and custom date range reports.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🤖</span>
+                    <h3>AI Prediction</h3>
+                    <p>6-month revenue forecast using past 6 months of sales data.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🔬</span>
+                    <h3>AI Analyzer</h3>
+                    <p>Custom date range analysis with AI-generated insights.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="landing-cta-bottom">
+            <a href="{{ url_for('login') }}" class="btn-landing-login-large">Login to Dashboard</a>
+        </div>
+    </main>
+    <footer class="landing-footer">
+        <p>Sales Management System — AI-Powered Demand & Trend Analysis</p>
+    </footer>
+</body>
+</html>

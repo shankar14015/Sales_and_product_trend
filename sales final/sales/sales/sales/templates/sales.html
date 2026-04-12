@@ -1,0 +1,183 @@
+{% extends "base.html" %}
+{% block title %}New Sale - Sales{% endblock %}
+{% block content %}
+<div class="filter-panel" id="filterPanel">
+    <span class="filter-label">Filter:</span>
+    <div class="filter-columns">
+        <div class="filter-group">
+            <span class="filter-sublabel">Categories</span>
+            <div class="filter-categories">
+                {% for c in categories %}
+                <label class="filter-check"><input type="checkbox" class="filter-cat" value="{{ c.doc_id }}"> {{ c.name }}</label>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="filter-group">
+            <span class="filter-sublabel">Products</span>
+            <div class="filter-products">
+                {% for p in products %}
+                <label class="filter-check"><input type="checkbox" class="filter-prod" value="{{ p.doc_id }}" data-cat="{{ p.category_id }}"> {{ p.name }}</label>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="filter-actions">
+        <button type="button" class="btn btn-sm btn-secondary" id="clearFilterBtn">Clear</button>
+    </div>
+    <div class="filter-summary" id="filterSummary">
+        <span id="filterStats">Select categories/products to see quantity & sales</span>
+    </div>
+</div>
+<div class="page-header">
+    <h1>New Sale</h1>
+    <p>Select category, product, quantity and add to sale</p>
+</div>
+<div class="sales-section">
+    <div class="sale-form-card">
+        <h3>Add Item</h3>
+        <form id="addSaleForm">
+            <div class="form-group">
+                <label>Category</label>
+                <select id="categorySelect" required>
+                    <option value="">-- Select Category --</option>
+                    {% for c in categories %}
+                    <option value="{{ c.doc_id }}">{{ c.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Product</label>
+                <select id="productSelect" required disabled>
+                    <option value="">-- Select Product --</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Quantity</label>
+                <input type="number" id="quantity" min="0.01" step="0.01" value="1" required>
+            </div>
+            <div class="form-group">
+                <label>Price (₹)</label>
+                <input type="number" id="price" min="0" step="0.01" readonly placeholder="Auto from product">
+            </div>
+            <div class="form-group">
+                <label>Total</label>
+                <input type="text" id="totalDisplay" readonly value="₹0.00">
+            </div>
+            <button type="submit" class="btn btn-primary">Add to Sale</button>
+        </form>
+    </div>
+    <div class="sale-cart-card">
+        <h3>Current Sale Items</h3>
+        <div id="saleItemsList"></div>
+        <div class="sale-total">
+            <strong>Total: <span id="cartTotal">₹0.00</span></strong>
+        </div>
+        <button type="button" id="completeSaleBtn" class="btn btn-success" disabled>Complete Sale</button>
+    </div>
+</div>
+<div id="toast" class="toast"></div>
+{% endblock %}
+{% block scripts %}
+<script>
+const products = {{ products | tojson }};
+const categorySelect = document.getElementById('categorySelect');
+const productSelect = document.getElementById('productSelect');
+const quantityInput = document.getElementById('quantity');
+const priceInput = document.getElementById('price');
+const totalDisplay = document.getElementById('totalDisplay');
+const addSaleForm = document.getElementById('addSaleForm');
+const saleItemsList = document.getElementById('saleItemsList');
+const cartTotal = document.getElementById('cartTotal');
+const completeSaleBtn = document.getElementById('completeSaleBtn');
+
+let cart = [];
+
+categorySelect.addEventListener('change', function() {
+    const catId = parseInt(this.value);
+    productSelect.innerHTML = '<option value="">-- Select Product --</option>';
+    productSelect.disabled = !catId;
+    priceInput.value = '';
+    totalDisplay.value = '₹0.00';
+    if (!catId) return;
+    products.filter(p => p.category_id === catId).forEach(p => {
+        const opt = document.createElement('option');
+        opt.value = p.doc_id || p.id;
+        opt.textContent = p.name + ' - ₹' + (p.price || 0).toFixed(2);
+        opt.dataset.price = p.price || 0;
+        productSelect.appendChild(opt);
+    });
+});
+
+productSelect.addEventListener('change', function() {
+    const opt = this.options[this.selectedIndex];
+    priceInput.value = opt.dataset.price || 0;
+    updateTotal();
+});
+
+quantityInput.addEventListener('input', updateTotal);
+function updateTotal() {
+    const qty = parseFloat(quantityInput.value) || 0;
+    const price = parseFloat(priceInput.value) || 0;
+    totalDisplay.value = '₹' + (qty * price).toFixed(2);
+}
+
+addSaleForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const productId = parseInt(productSelect.value);
+    const qty = parseFloat(quantityInput.value) || 1;
+    const price = parseFloat(priceInput.value) || 0;
+    if (!productId || price <= 0) {
+        showToast('Please select product and valid quantity.');
+        return;
+    }
+    try {
+        const res = await fetch('/api/sales/add', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ product_id: productId, quantity: qty, price })
+        });
+        const data = await res.json();
+        if (data.success) {
+            cart.push(data.sale);
+            renderCart();
+            showToast('Item added!');
+            quantityInput.value = 1;
+            productSelect.selectedIndex = 0;
+            priceInput.value = '';
+            totalDisplay.value = '₹0.00';
+        } else {
+            showToast(data.error || 'Failed to add');
+        }
+    } catch (err) {
+        showToast('Error: ' + err.message);
+    }
+});
+
+function renderCart() {
+    saleItemsList.innerHTML = '';
+    let total = 0;
+    cart.forEach((item, i) => {
+        total += item.amount || item.total;
+        const div = document.createElement('div');
+        div.className = 'sale-item';
+        div.innerHTML = `<span>${item.quantity} x ₹${(item.price||0).toFixed(2)} = ₹${(item.amount||item.total).toFixed(2)}</span>`;
+        saleItemsList.appendChild(div);
+    });
+    cartTotal.textContent = '₹' + total.toFixed(2);
+    completeSaleBtn.disabled = cart.length === 0;
+}
+
+completeSaleBtn.addEventListener('click', function() {
+    cart = [];
+    renderCart();
+    showToast('Sale completed!');
+});
+
+function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2000);
+}
+</script>
+{% endblock %}

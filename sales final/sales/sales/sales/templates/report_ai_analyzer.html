@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}AI Sale Analyzer - Sales{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1>AI Sale Analyzer & Report Generator</h1>
+    <p>Generate custom date range reports with AI insights</p>
+    <a href="{{ url_for('reports_page') }}" class="btn btn-secondary">← Back to Reports</a>
+</div>
+<div class="manage-card">
+    <h3>Select Date Range</h3>
+    <form id="aiAnalyzerForm" class="form-inline">
+        <label>From</label>
+        <input type="date" name="start" id="startDate">
+        <label>To</label>
+        <input type="date" name="end" id="endDate">
+        <button type="submit" class="btn btn-primary">Generate AI Report</button>
+    </form>
+</div>
+<div id="reportOutput" class="report-output" style="display:none;">
+    <h3>Generated Report</h3>
+    <pre id="reportContent"></pre>
+</div>
+<div id="reportLoading" class="report-loading" style="display:none;">Generating report...</div>
+{% endblock %}
+{% block scripts %}
+<script>
+document.getElementById('aiAnalyzerForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const start = document.getElementById('startDate').value;
+    const end = document.getElementById('endDate').value;
+    if (!start || !end) {
+        alert('Please select both start and end dates.');
+        return;
+    }
+    const loading = document.getElementById('reportLoading');
+    const output = document.getElementById('reportOutput');
+    const content = document.getElementById('reportContent');
+    loading.style.display = 'block';
+    output.style.display = 'none';
+    try {
+        const res = await fetch('/api/reports/ai-analyzer', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ start, end })
+        });
+        const data = await res.json();
+        content.textContent = data.report || 'No report generated.';
+        output.style.display = 'block';
+    } catch (err) {
+        content.textContent = 'Error: ' + err.message;
+        output.style.display = 'block';
+    }
+    loading.style.display = 'none';
+});
+</script>
+{% endblock %}

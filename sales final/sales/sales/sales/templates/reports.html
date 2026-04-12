@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Reports - Sales{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1>Reports</h1>
+    <p>Sales growth, analytics and custom date reports</p>
+</div>
+<div class="reports-grid">
+    <a href="{{ url_for('report_today') }}" class="report-card">
+        <h3>Today's Sales</h3>
+        <p>View today's sales growth and transactions</p>
+    </a>
+    <a href="{{ url_for('report_monthly') }}" class="report-card">
+        <h3>Monthly Sales</h3>
+        <p>This month's sales growth and graph</p>
+    </a>
+    <a href="{{ url_for('report_products') }}" class="report-card">
+        <h3>Product Reports</h3>
+        <p>All products with sales reports</p>
+    </a>
+    <a href="{{ url_for('report_ai_prediction') }}" class="report-card">
+        <h3>AI Prediction</h3>
+        <p>Future days & months sales prediction</p>
+    </a>
+    <a href="{{ url_for('report_ai_analyzer') }}" class="report-card">
+        <h3>AI Analyzer</h3>
+        <p>Generate custom date reports with AI</p>
+    </a>
+</div>
+<div class="manage-card">
+    <h3>Custom Date Report</h3>
+    <form action="{{ url_for('report_custom') }}" method="get" class="form-inline">
+        <label>From</label>
+        <input type="date" name="start" required>
+        <label>To</label>
+        <input type="date" name="end" required>
+        <button type="submit" class="btn btn-primary">Generate Report</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{% block title %}Manage Categories - Sales{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1>Manage Categories</h1>
+    <p>Add, edit or remove categories. {% if request.args.getlist('category_ids') %}Filtered by selection.{% endif %}</p>
+</div>
+<div class="manage-card">
+    <h3>Add Category</h3>
+    <form id="addCategoryForm" class="form-inline">
+        <input type="text" id="categoryName" placeholder="Category name" required>
+        <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+</div>
+<div class="manage-card">
+    <h3>Categories</h3>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="categoriesTable">
+            {% for c in categories %}
+            <tr data-id="{{ c.doc_id }}">
+                <td>{{ c.doc_id }}</td>
+                <td class="cat-name">{{ c.name }}</td>
+                <td>
+                    <button class="btn btn-sm btn-edit" data-id="{{ c.doc_id }}">Edit</button>
+                    <button class="btn btn-sm btn-danger" data-id="{{ c.doc_id }}">Delete</button>
+                </td>
+            </tr>
+            {% endfor %}
+            {% if not categories %}
+            <tr><td colspan="3">No categories. {% if request.args.getlist('category_ids') %}Clear filter to see all.{% else %}Add one above.{% endif %}</td></tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+<div id="toast" class="toast"></div>
+{% endblock %}
+{% block scripts %}
+<script>
+const addForm = document.getElementById('addCategoryForm');
+const tbody = document.getElementById('categoriesTable');
+
+addForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const name = document.getElementById('categoryName').value.trim();
+    if (!name) return;
+    try {
+        const res = await fetch('/api/categories', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name })
+        });
+        const data = await res.json();
+        if (data.success) {
+            const tr = document.createElement('tr');
+            tr.dataset.id = data.id;
+            tr.innerHTML = `<td>${data.id}</td><td class="cat-name">${name}</td><td>
+                <button class="btn btn-sm btn-edit" data-id="${data.id}">Edit</button>
+                <button class="btn btn-sm btn-danger" data-id="${data.id}">Delete</button>
+            </td>`;
+            tbody.insertBefore(tr, tbody.firstChild);
+            addForm.reset();
+            showToast('Category added!');
+        }
+    } catch (err) { showToast('Error: ' + err.message); }
+});
+
+tbody.addEventListener('click', async function(e) {
+    const id = parseInt(e.target.dataset.id);
+    if (!id) return;
+    if (e.target.classList.contains('btn-edit')) {
+        const row = e.target.closest('tr');
+        const newName = prompt('Category name:', row.querySelector('.cat-name').textContent);
+        if (newName) {
+            const res = await fetch('/api/categories/' + id, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: newName })
+            });
+            if (res.ok) {
+                row.querySelector('.cat-name').textContent = newName;
+                showToast('Updated!');
+            }
+        }
+    } else if (e.target.classList.contains('btn-danger')) {
+        if (!confirm('Delete this category?')) return;
+        const res = await fetch('/api/categories/' + id, { method: 'DELETE' });
+        if (res.ok) { e.target.closest('tr').remove(); showToast('Deleted!'); }
+    }
+});
+
+function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2000);
+}
+</script>
+{% endblock %}
